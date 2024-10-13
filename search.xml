@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>游戏客户端开发基本路线</title>
+      <link href="/2024/10/13/%E6%B8%B8%E6%88%8F%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E5%9F%BA%E6%9C%AC%E8%B7%AF%E7%BA%BF/"/>
+      <url>/2024/10/13/%E6%B8%B8%E6%88%8F%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E5%9F%BA%E6%9C%AC%E8%B7%AF%E7%BA%BF/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/tiao_god/article/details/111146313">计算机图形学（渲染方向）学习全攻略——学术科研篇_图形学blog-CSDN博客</a></p><p><a href="https://www.cnblogs.com/zhy-1992/p/6530359.html">游戏开发完整学习路线（各个版本都有） - 领悟.海洋 - 博客园 (cnblogs.com)</a></p><p><a href="https://zhuanlan.zhihu.com/p/445343440">图形学渲染方向个人学习路线整理 - 知乎 (zhihu.com)</a></p><p><a href="https://zhuanlan.zhihu.com/p/73151203">Unity游戏开发新手入门自学与进阶学习书籍和教程推荐 - 知乎 (zhihu.com)</a></p><p><a href="https://zhuanlan.zhihu.com/p/151238164?utm_id=0">[教程汇总+持续更新]Unity从入门到入坟——收藏这一篇就够了 - 知乎 (zhihu.com)</a></p><p>图形学：<br>入门：GAMES-101&nbsp;<br>实时渲染：GAMES-202、GAMES-104、RTR4(<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://github.com/Morakito/Real-Time-Rendering-4th-CN">https://github.com/Morakito/Real-Time-Rendering-4th-CN</a>)<br>离线渲染：<br>简单的软光追：<br>Ray&nbsp;Tracing&nbsp;in&nbsp;One&nbsp;<br>Weekend三部曲(<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://raytracing.github.io">https://raytracing.github.io</a>)<br>进阶：PBRT-V4&nbsp;(<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://pbr-book.org/4ed/contents">https://pbr-book.org/4ed/contents</a>)<br>图形API：<br>OpenGL：<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://learnopengl-cn.github.io">https://learnopengl-cn.github.io</a><br>Vulkan：<br>渐进式教程：<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://vulkan-tutorial.com">https://vulkan-tutorial.com</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Example：<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://github.com/SaschaWillems/Vulkan">https://github.com/SaschaWillems/Vulkan</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;将Vulkan封装成RHI，写出小引擎：<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://github.com/BoomingTech/Piccolo">https://github.com/BoomingTech/Piccolo</a><br>引擎原理:<br>GAMES-104,&nbsp;课程附带的&nbsp;<br>Piccolo源码值得一读&nbsp;(<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://github.com/BoomingTech/Piccolo">https://github.com/BoomingTech/Piccolo</a>)<br>Godot&nbsp;(<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://github.com/godotengine/godot">https://github.com/godotengine/godot</a>) 以及虚幻5源码<br>引擎使用:<br>Unity：<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://catlikecoding.com/unity/tutorials/">https://catlikecoding.com/unity/tutorials/</a><br>编程: C<a href="/creation/subject/aec4cfb3acc74278b5a7273c17f8b8df">#：《C#</a>图解教程》<br>Shader：《Unity Shader 入门精要》<br>C++：《C++ Primer》《Effective Modern C++》《深度探索C++对象模型》《C++并发编程实战》<br>Lua：《Lua程序设计》 以及设计模式<br>其他:<br>GDC<br>SIGGRAPH   </p><p>书籍：<br>游戏设计原型与开发</p><p><a href="https://indienova.com/indie-game-development/start-developing-indie-games/">独立游戏开发入门指南 | indienova 独立游戏</a></p><p><img src="https://pic.imgdb.cn/item/670b9783d29ded1a8ceefe96.jpg" alt="插图"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2024/10/12/hello-world/"/>
       <url>/2024/10/12/hello-world/</url>
