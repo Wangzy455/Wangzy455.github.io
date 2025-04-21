@@ -1,260 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>夜思</title>
-    <url>/2024/11/10/%E5%A4%9C%E6%80%9D/</url>
-    <content><![CDATA[<p>今天是2024年11月10日，上午十点刚刚考完中级软件设计师的考试，题目难度尚可，在略显拥挤的机房里完成了自己的第一次的考证时刻。</p>
-<p>或许这个证的作用没有我想象中的那么大，但是那也是我为了脱离当下困境的努力挣扎之一了，作为一名双非本的普通软工学生，没有名校学生优质的资源，但是我依然在大一的时候就把进入互联网大厂作为自己的目标，从去年九月份开始，自学技术，做开源项目，做网上的项目，学各种技术去看MIT和UCB的公开课，图形学，机器学习，全栈开发等各种词汇填满了我大学的前一年半。</p>
-<p>每当结束了一天无聊的上课时光，和紧张的自学时光之后，我躺在床上不免想，我真的热爱这个领域吗，或许不是，那我这么努力是为了什么呢？思虑良久，回答自己，无非碎银几两。挣钱嘛，没什么寒碜的。作家毛姆也说过，对金钱的追求是一个人正常的欲望。手中有几个铜板才能让我更好的赡养父母，追求我自己喜欢的精神生活。</p>
-<p>在想通了这个之后，最近的计划就略微有了改变，在每天可怜的自学时间里，挤出一点时间，去尝试一些挣钱的方法，在这个浮躁且快节奏的社会，通过便捷的社交媒体，我们见证了太多沉浮，有人一夜暴富，一夜成名，站在时代的浪头。但也有人一夜身无分文，落魄潦倒。</p>
-<p>这是时代的特点，我们个体的力量是没有办法做出改变的，时代的每一粒灰，落在每个人头上都是一座山，有时候看着那些年少有为的人不免会心生羡慕，但是无意思的幻想，只会让我更难以全身心的投入残酷的现实。</p>
-<p>始终记住，你一直都是你自己，不要看别人交了答卷，就匆忙交上自己的答卷。</p>
-<p><img src="https://pic.imgdb.cn/item/673089c3d29ded1a8c6a8169.jpg" alt="考场图片"></p>
-]]></content>
-      <tags>
-        <tag>思考</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>游戏客户端开发基本路线</title>
-    <url>/2024/10/13/%E6%B8%B8%E6%88%8F%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E5%9F%BA%E6%9C%AC%E8%B7%AF%E7%BA%BF/</url>
-    <content><![CDATA[<p><a href="https://blog.csdn.net/tiao_god/article/details/111146313">计算机图形学（渲染方向）学习全攻略——学术科研篇_图形学blog-CSDN博客</a></p>
-<p><a href="https://www.cnblogs.com/zhy-1992/p/6530359.html">游戏开发完整学习路线（各个版本都有） - 领悟.海洋 - 博客园 (cnblogs.com)</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/445343440">图形学渲染方向个人学习路线整理 - 知乎 (zhihu.com)</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/73151203">Unity游戏开发新手入门自学与进阶学习书籍和教程推荐 - 知乎 (zhihu.com)</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/151238164?utm_id=0">[教程汇总+持续更新]Unity从入门到入坟——收藏这一篇就够了 - 知乎 (zhihu.com)</a></p>
-<p>图形学：<br>入门：GAMES-101&nbsp;<br>实时渲染：GAMES-202、GAMES-104、RTR4(<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://github.com/Morakito/Real-Time-Rendering-4th-CN">https://github.com/Morakito/Real-Time-Rendering-4th-CN</a>)<br>离线渲染：<br>简单的软光追：<br>Ray&nbsp;Tracing&nbsp;in&nbsp;One&nbsp;<br>Weekend三部曲(<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://raytracing.github.io">https://raytracing.github.io</a>)<br>进阶：PBRT-V4&nbsp;(<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://pbr-book.org/4ed/contents">https://pbr-book.org/4ed/contents</a>)<br>图形API：<br>OpenGL：<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://learnopengl-cn.github.io">https://learnopengl-cn.github.io</a><br>Vulkan：<br>渐进式教程：<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://vulkan-tutorial.com">https://vulkan-tutorial.com</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Example：<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://github.com/SaschaWillems/Vulkan">https://github.com/SaschaWillems/Vulkan</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;将Vulkan封装成RHI，写出小引擎：<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://github.com/BoomingTech/Piccolo">https://github.com/BoomingTech/Piccolo</a><br>引擎原理:<br>GAMES-104,&nbsp;课程附带的&nbsp;<br>Piccolo源码值得一读&nbsp;(<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://github.com/BoomingTech/Piccolo">https://github.com/BoomingTech/Piccolo</a>)<br>Godot&nbsp;(<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://github.com/godotengine/godot">https://github.com/godotengine/godot</a>) 以及虚幻5源码<br>引擎使用:<br>Unity：<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://catlikecoding.com/unity/tutorials/">https://catlikecoding.com/unity/tutorials/</a><br>编程: C<a href="/creation/subject/aec4cfb3acc74278b5a7273c17f8b8df">#：《C#</a>图解教程》<br>Shader：《Unity Shader 入门精要》<br>C++：《C++ Primer》《Effective Modern C++》《深度探索C++对象模型》《C++并发编程实战》<br>Lua：《Lua程序设计》 以及设计模式<br>其他:<br>GDC<br>SIGGRAPH   </p>
-<p>书籍：<br>游戏设计原型与开发</p>
-<p><a href="https://indienova.com/indie-game-development/start-developing-indie-games/">独立游戏开发入门指南 | indienova 独立游戏</a></p>
-<p><img src="https://pic.imgdb.cn/item/670b9783d29ded1a8ceefe96.jpg" alt="插图"></p>
-]]></content>
-      <tags>
-        <tag>学习路线</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>自学八股：CAS和AQS</title>
-    <url>/2025/04/19/%E8%87%AA%E5%AD%A6%E5%85%AB%E8%82%A1%EF%BC%9ACAS%E5%92%8CAQS/</url>
-    <content><![CDATA[<h3 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h3><p>在对java并发编程的考察中CAS和AQS这两个概念的考察出现的频率是非常高的，所以本文主要通过笔者看过的文章和源码解读做一些整理和自己的思考，关于这两个概念。</p>
-<h4 id="面试题举例"><a href="#面试题举例" class="headerlink" title="面试题举例"></a>面试题举例</h4><ul>
-<li>java哪些地方使用到了CAS</li>
-<li>CAS有什么问题怎么解决</li>
-<li>AQS独占式获取\释放锁的原理</li>
-<li>…</li>
-</ul>
-<h4 id="前置概念"><a href="#前置概念" class="headerlink" title="前置概念"></a>前置概念</h4><p>1、线程同步</p>
-<p>在多线程环境中，<strong>协调多个线程对共享资源的访问</strong>，以确保数据的一致性和完整性。在多线程程序中，多个线程可能会同时访问和修改共享资源，如果没有适当的同步机制，可能会导致数据竞争（Race Condition）、数据不一致或死锁等问题。线程同步的目的是通过控制线程的执行顺序，确保在任意时刻只有一个线程可以访问共享资源，或者多个线程可以安全地访问共享资源。</p>
-<p>2、线程安全</p>
-<p>在多线程环境中，<strong>一个类或代码段能够被多个线程安全地访问，而不会导致数据不一致或错误的行为</strong>。换句话说，线程安全的代码在并发执行时，能够保证数据的完整性和一致性。</p>
-<p>实现方法：</p>
-<ol>
-<li>互斥同步：synchronized，ReentrantLock</li>
-<li>非阻塞同步：CAS，Atomic</li>
-<li>无同步方案：栈封闭，Thread Local，可重入代码</li>
-</ol>
-<h3 id="CAS"><a href="#CAS" class="headerlink" title="CAS"></a>CAS</h3><p>CAS本质上是通过硬件实现的，是一条CPU的原子指令，让CPU比较两个值是否相等，然后原子地更新某个位置，所以CAS是基于硬件实现的，JVM对底层的接口进行了封装，JDK中的原子类则是对这个接口进行了调用<br>这里的CAS是基于底层硬件实现的，除了在并发编程中有无锁化这种理念，其实我还觉得，这是由于虚拟机会进行指令重排</p>
-<h4 id="CAS可能产生的问题"><a href="#CAS可能产生的问题" class="headerlink" title="CAS可能产生的问题"></a>CAS可能产生的问题</h4><ol>
-<li><p>ABA问题</p>
-<blockquote>
-<p>解决方案：<br>使用版本号，每次更新变量的值的时候，就在版本号上加一Java 1.5开始，JDK的Atomic包里提供了一个类AtomicStampedReference来解决ABA问题。这个类的compareAndSet方法的作用是首先检查当前引用是否等于预期引用，并且检查当前标志是否等于预期标志，如果全部相等，则以原子方式将该引用和该标志的值设置为给定的更新值。其实在MySQL数据库中一些无锁化的处理也是这样基于版本号实现的</p>
-</blockquote>
-</li>
-<li><p>循环时间长开销大</p>
-<blockquote>
-<p>解决方案：<br>JVM支持处理器提供的pause指令</p>
-</blockquote>
-</li>
-<li><p>只能保证一个共享变量的原子操作</p>
-<blockquote>
-<p>解决方案：<br>通过JDK提供的AtomicReference来实现对多个共享变量的原子操作</p>
-</blockquote>
-</li>
-</ol>
-<p>底层的Unsafe类实现和原子类这里先不说了，等笔者弄明白再继续写，不过感觉Unsafe这个部分在面试中出现的频率并不高，原子类的考察则偏简单一些</p>
-<h3 id="AQS"><a href="#AQS" class="headerlink" title="AQS"></a>AQS</h3><p>AQS是一个构建锁和同步器的框架，使用AQS能简单且高效地构造出应用广泛的同步器，比如ReentrantLock，Semaphore，ReentrantReadWriteLock，SynchronousQueue等</p>
-<p>AQS作为抽象类只实现了部分逻辑（模版方法），并且使用了队列这个数据结构，具有先进先出的特性</p>
-<h4 id="AQS的内部数据结构"><a href="#AQS的内部数据结构" class="headerlink" title="AQS的内部数据结构"></a>AQS的内部数据结构</h4><ul>
-<li>state 同步状态</li>
-<li>实现了一个双端队列，存储着封装成Node节点的线程，实现了一些排队和阻塞的功能</li>
-</ul>
-<h4 id="AQS在面试中的主要考察点"><a href="#AQS在面试中的主要考察点" class="headerlink" title="AQS在面试中的主要考察点"></a>AQS在面试中的主要考察点</h4><p><strong>AQS独占式获取&#x2F;释放锁的原理</strong></p>
-<blockquote>
-<p><strong>获取锁：</strong><br>1获取同步状态时，调用 acquire 方法，维护一个同步队列；<br>2使用 tryAcquire 方法安全地获取锁，如果成功返回true，失败返回false；<br>3获取失败的线程会被构造同步节点并通过 addWaiter 方法加入到同步队列的尾部；<br>4执行 acquireQueued 方法使得该节点以自旋的方式获取锁，如果获取不到则阻塞，被阻塞线程的唤醒主要依靠前驱节点的出队或被中断实现，移出队列或停止自旋的条件是前驱节点是头结点且成功获取了同步状态。<br>5成功获取锁后，将从acquireQueued方法中退出，同时返回一个boolean值表示当前线程是否被中断，若被中断，则会执行selfInterrupt方法，响应中断。<br><strong>释放锁：</strong><br>1释放同步状态时，同步器调用 tryRelease 方法释放锁；<br>2然后调用 unparkSuccessor 方法唤醒头节点的后继节点，使后继节点重新尝试获取锁。</p>
-</blockquote>
-<p><strong>AQS共享式获取&#x2F;释放锁的原理</strong></p>
-<blockquote>
-<p><strong>获取锁：</strong><br>1首先调用tryAcquireShared方法尝试获取一次共享锁，即修改state的值，若返回值&gt;&#x3D;0，则表示获取成功，线程不受影响，继续向下执行；<br>2若返回值小于0，表示获取共享锁失败，则线程需要进入到同步队列中等待，调用doAcquireShared方法。<br><strong>释放锁：</strong><br>1使用releaseShared模板方法释放锁，通过调用使用者自己实现的tryReleaseShared方法尝试释放锁，修改state的值，若返回true，表示修改成功，则继续向下调用doReleaseShared唤醒head的下一个节点对应的线程，让它开始尝试获取锁；<br>2若修改state失败，则返回false。</p>
-</blockquote>
-<p>这里可能还会考察通过AQS实现的一些类比如ReentranLock,这个打算放到锁的那个部分再说。</p>
-<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>这篇便主要讲了一下AQS和CAS可能会在面试中考察的点，说的都是可能直接问的地方，也说了一下原理，本身我对这个原理理解也不是特别的深入，这能尽自己所能了。</p>
-<p><em>参考文章：</em></p>
-<p><a href="https://redspider.gitbook.io/concurrent/di-er-pian-yuan-li-pian/11">https://redspider.gitbook.io/concurrent/di-er-pian-yuan-li-pian/11</a><br><a href="https://www.pdai.tech/md/java/thread/java-thread-x-juc-AtomicInteger.html#cas-%E9%97%AE%E9%A2%98">https://www.pdai.tech/md/java/thread/java-thread-x-juc-AtomicInteger.html#cas-%E9%97%AE%E9%A2%98</a><br><a href="https://www.pdai.tech/md/java/thread/java-thread-x-lock-AbstractQueuedSynchronizer.html">https://www.pdai.tech/md/java/thread/java-thread-x-lock-AbstractQueuedSynchronizer.html</a><br><a href="https://redspider.gitbook.io/concurrent/di-er-pian-yuan-li-pian/11">https://redspider.gitbook.io/concurrent/di-er-pian-yuan-li-pian/11</a></p>
-]]></content>
-      <tags>
-        <tag>自学八股</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>自学八股系列：序言</title>
-    <url>/2025/04/19/%E8%87%AA%E5%AD%A6%E5%85%AB%E8%82%A1%E7%B3%BB%E5%88%97%EF%BC%9A%E5%BA%8F%E8%A8%80/</url>
-    <content><![CDATA[<h3 id="创作初衷"><a href="#创作初衷" class="headerlink" title="创作初衷"></a>创作初衷</h3><p>纸上得来终觉浅，绝知此事要躬行</p>
-<p>各位读者好，很荣幸我的文字能够通过无数字节飞舞的互联网呈现在你的眼前，也让我这个即将步入互联网行业的小透明的心声可以展示给各位，下面就来说一下我为什么想写这一系列文章。</p>
-<p>笔者刚上初中的时候，正值互联网的风口期，层出不穷的网络事物改变着我们的生活，约车，电商，短视频，人工智能等等，互联网行业处于飞速发展的上升期，高薪神话吸引了无数人前仆后继的涌入这个行业，我们漂浮在巨大的泡沫之上，但是随着互联网行业停止了最开始的野蛮增长逐渐转入平稳发展之后，当各大互联网公司不再需要人力去做原始积累的时候，计算机专业学生的就业形势远不如从前，加之疫情的影响，其它行业的不景气，大量的冷门专业毕业生，也想通过转码来保持最基本的温饱，导致了现在的就业简直卷到了极致。</p>
-<p>笔者就是在这样的环境中进入了大学，在焦虑和迷茫中来到了大二。在过去的两年，我去了解计算机行业的很多领域，不过大部分都是浅尝辄止，连最基本的成果都没有。在大一的时候接触到了后端开发，我觉得还算可以，便慢慢决定向着这个方向学习（后面才知道这是就业最卷的领域）</p>
-<p>当时的我每天焦虑的刷着牛客和知乎，看着前辈们进入大厂之后的经验分享和学习路线，看着面经和别人的简历，心中幻想着自己以后进入大厂之后应该怎么在朋友圈炫耀自己的offer</p>
-<p>可是，慢慢的我觉得这并不是我想要的，现在我认识大部分同学的学习都是照着视频不断地抄代码，一个视频接着一个视频，让我想到了工厂流水线上生产出来的商品，大家都一模一样，没有瑕疵但是也没有特点，像极了在高中背诵数学大题答案的那个傻傻的自己</p>
-<p>所以我决定不再把学习技术当做像学生时代应对一场考试那样，我决定写技术博客记录自己的思考，这个系列的文章就是尝试的开始，八股使我们面向就业的捷径，但是我不想真的像清朝八股取士那样一遍一遍的去背，而是把这个当做大纲去真正的学习，去像一个工程师一样思考</p>
-<h3 id="创作内容"><a href="#创作内容" class="headerlink" title="创作内容"></a>创作内容</h3><p>按照我自己的想法，这是我写技术博客的一个尝试的开始，之前自己写过的博客多半是复制粘贴的知识加上一点自己的解释，或者毫无逻辑的题解，现在我想通过这写文章，记录自己的学习过程和思考，哪怕那些思考很浅薄或者很可笑</p>
-<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>在这个快节奏的时代，谈梦想都是廉价的，但是我始终都告诉我自己要记得自己究竟想成为什么样的人，究竟想过怎么样的生活，与诸位共勉</p>
-<p>最后，希望大家可以喜欢我的文章（想了好久，还是这样写结束语吧）</p>
-]]></content>
-      <tags>
-        <tag>自学八股</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>自学八股：rabbitmq基础</title>
-    <url>/2025/04/20/%E8%87%AA%E5%AD%A6%E5%85%AB%E8%82%A1%EF%BC%9Arabbitmq%E5%9F%BA%E7%A1%80/</url>
-    <content><![CDATA[<h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><p>通过队列功能进行消息传递，生产者将消息放到队列里，消费者可以到指定的队列去拉取消息，或者订阅对应的队列，由MQ服务端给其推送消息</p>
-<h3 id="核心功能"><a href="#核心功能" class="headerlink" title="核心功能"></a>核心功能</h3><h5 id="1，流量削峰填谷"><a href="#1，流量削峰填谷" class="headerlink" title="1，流量削峰填谷"></a>1，流量削峰填谷</h5><p>在当前互联网的业务场景下，比如<strong>商品秒杀</strong>，在较短时间内，瞬时涌入大量请求，这个时候系统资源可能会耗尽，造成服务器瘫痪。<br>可以使用消息队列来缓冲瞬时流量，通过一个队列在一端承接瞬时的流量洪峰，在另一端平滑地将消息推送出去<br>这个过程中由于消息队列限制了消息的发送频率，所以肯定会有大量的消息积压在消息队列中可能会产生消息积压的问题，这个在实际情况中需要考虑</p>
-<h5 id="2，应用解耦"><a href="#2，应用解耦" class="headerlink" title="2，应用解耦"></a>2，应用解耦</h5><p>常用在微服务系统中，用于提高系统的可用性，比如在一个商城系统中，有订单服务和物流服务，从订单服务产生的请求通过消息队列发送给物流服务，如果物流服务出现了问题，消息会短时间内积压在消息队列中，直到下游服务恢复之后，会继续处理请求，在这个过程中用户是感知不到的</p>
-<h5 id="3，异步处理"><a href="#3，异步处理" class="headerlink" title="3，异步处理"></a>3，异步处理</h5><p>可以类比多线程优化接口的响应性能，A 调用 B 服务后，只需要监听 B 处理完成的消息，当 B 处理完成后，会发送一条消息给 MQ，MQ 会将此消息转发给 A 服务。这样 A 服务既不用循环调用 B 的查询 api，也不用提供回调接口。同样B 服务也不用做这些操作。A 服务还能及时的得到异步处理成功的消息，比如一些文件上传的服务</p>
-<h3 id="AMQP"><a href="#AMQP" class="headerlink" title="AMQP"></a>AMQP</h3><p>在rabbitmq中主要使用的是AMQP协议，<br>特性：</p>
-<ul>
-<li>独立于平台的底层消息传递协议。</li>
-<li>消费者驱动消息传递。</li>
-<li>跨语言和平台的互用性、属于底层协议。</li>
-<li>有5种交换类型direct,fanout,topic,headers,system。</li>
-<li>面向缓存的、可实现高性能、支持经典的消息队列，循环，存储和转发。</li>
-<li>支持长周期消息传递、支持事务（跨消息队列）</li>
-</ul>
-<h3 id="RabbitMQ的核心概念："><a href="#RabbitMQ的核心概念：" class="headerlink" title="RabbitMQ的核心概念："></a>RabbitMQ的核心概念：</h3><p><strong>Producer（生产者）、Connection（连接）、Channel（信道）、Exchange（交换机）、Queue（队列）、Virtual host（虚拟主机）、Consumer（消费者）、Routing Key（路由键）、Binding（绑定）等</strong></p>
-<p>解释：</p>
-<h5 id="Producer（生产者）"><a href="#Producer（生产者）" class="headerlink" title="Producer（生产者）"></a>Producer（生产者）</h5><p>产生数据发送消息的程序是<code>生产者（Producer）</code>。</p>
-<h5 id="Connection（连接）"><a href="#Connection（连接）" class="headerlink" title="Connection（连接）"></a>Connection（连接）</h5><p>每个生产者或者消费者要通过<code>RabbitMQ</code>发送与消费消息，首先就要与<code>RabbitMQ</code>建立连接，这个连接就是<code>Connection</code>，这是一个<code>TCP</code>长连接。</p>
-<h5 id="Channel（信道）"><a href="#Channel（信道）" class="headerlink" title="Channel（信道）"></a>Channel（信道）</h5><p>如果每一次访问<code>RabbitMQ</code>都建立一个<code>Connection</code>，在消息量大的时候建立 <code>TCP 连接</code>的开销将是巨大的，效率也较低，在系统访问流量高峰时，会严重影响系统性能。</p>
-<p><code>Channel（信道）</code>是在<code>Connection</code>内部建立的逻辑连接，如果应用程序支持多线程，通常每个线程创建单独的<code>channel</code>进行通讯， channel 之间是完全隔离的。<code>Channel</code>作为轻量级的<code>Connection</code> 极大减少了操作系统建立<code>TCP connection</code>的开销 。</p>
-<p><code>RabbitMQ</code>中大部分的操作都是使用<code>Channel</code>完成的，比如：声明<code>Queue</code>、声明<code>Exchange</code>、发布消息、消费消息等。<br>这个可以类比用netty实现websocket的过程中，netty中的channel</p>
-<h5 id="Broker（服务端）"><a href="#Broker（服务端）" class="headerlink" title="Broker（服务端）"></a>Broker（服务端）</h5><p><code>Broker（服务端）</code>接收和分发消息的应用，<code>RabbitMQ Server</code>（服务端） 就是 <code>Message Broker</code>。</p>
-<h5 id="Virtual-host（虚拟主机）"><a href="#Virtual-host（虚拟主机）" class="headerlink" title="Virtual host（虚拟主机）"></a>Virtual host（虚拟主机）</h5><p><code>Virtual host</code>是一个虚拟主机的概念，一个<code>Broker</code>中可以有多个虚拟主机。</p>
-<p>出于多租户和安全因素设计的，把 <code>AMQP</code> 的基本组件划分到一个虚拟的分组中，类似于网络中的命名空间概念。</p>
-<p>当多个不同的用户使用同一个<code>RabbitMQ server</code> 提供的服务时，可以划分出多个<code>vhost</code>，每个用户在自己的 <code>vhost</code>创建 <code>exchange／queue</code>等，很好地做到了不同用户之间相互隔离的效果。</p>
-<h5 id="Exchange（交换机）"><a href="#Exchange（交换机）" class="headerlink" title="Exchange（交换机）"></a>Exchange（交换机）</h5><p><code>交换机</code>是 <code>RabbitMQ</code>非常重要的一个部件，一方面它接收来自生产者的消息，另一方面它将消息推送到队列中。交换机必须确切知道如何处理它接收到的消息，是将这些消息推送到特定队列还是推送到多个队列，亦或者是把消息丢弃，这个由交换机类型决定。</p>
-<p>交换机有4种类型：<code>direct、fanout、topic、headers</code>。</p>
-<h5 id="Queue（队列）"><a href="#Queue（队列）" class="headerlink" title="Queue（队列）"></a>Queue（队列）</h5><p>队列是<code>RabbitMQ</code> 内部使用的一种数据结构，尽管消息流经<code>RabbitMQ</code>和应用程序，但它们只能存储在队列中。队列仅受主机的内存和磁盘限制的约束，本质上是一个大的消息缓冲区。许多生产者可以将消息发送到一个队列，许多消费者可以尝试从一个队列接收数据。</p>
-<h5 id="Binding（绑定）"><a href="#Binding（绑定）" class="headerlink" title="Binding（绑定）"></a>Binding（绑定）</h5><p><code>Binding（绑定）</code>是指交换机和队列之间的虚拟连接，绑定信息被保存到交换机中的查询表中，用于消息的分发依据。</p>
-<h5 id="Routing-Key（路由键）"><a href="#Routing-Key（路由键）" class="headerlink" title="Routing Key（路由键）"></a>Routing Key（路由键）</h5><p>创建好<code>Exchange</code>和<code>Queue</code>之后，需要使用<code>Routing key（或者叫做Binding key）</code>将它们绑定起来，生产者在向交换机发送一条消息的时候，必须指定一个<code>Routing key</code>，然后交换机接收到这条消息之后，会解析<code>Routing key</code>，然后根据<code>Exchange</code>和<code>Queue</code>的绑定规则，将消息分发到符合规则的<code>Queue</code>中。</p>
-<h5 id="Consumer（消费者）"><a href="#Consumer（消费者）" class="headerlink" title="Consumer（消费者）"></a>Consumer（消费者）</h5><p>接受消息并进行消费的程序是<code>Consumer（消费者）</code></p>
-<p><img src="https://pic1.imgdb.cn/item/6804b04058cb8da5c8b8fae0.png" alt="Pasted image 20250420152612.png"></p>
-<h3 id="工作模式"><a href="#工作模式" class="headerlink" title="工作模式"></a>工作模式</h3><p>由于我的简历中使用消息队列的时候主要使用的是发布&#x2F;订阅模式和点对点模式，所以这里先着重分析这两种工作模式</p>
-<h4 id="1，发布-订阅模式"><a href="#1，发布-订阅模式" class="headerlink" title="1，发布&#x2F;订阅模式"></a>1，发布&#x2F;订阅模式</h4><p>作用流程：消息的发布者通过消息通道将消息广播出去，让订阅该消息主题的订阅者消费</p>
-<p>流程如下：<br><strong>1、</strong> 生产者将消息发送到交换机；<br><strong>2、</strong> 交换机将信息发给所有绑定的队列；<br><strong>3、</strong> 绑定队列的消费者收到消息；</p>
-<p>该模式需要指定一个<code>Exchange</code>交换机，起本身只负责转发消息，不具备存储消息的能力。一方面，接收生产者发送的消息。另一方面，需要知道如何处理消息，例如递交给某个特别队列、递交给所有队列、或是将消息丢弃。</p>
-<p>到底如何操作，取决于<code>Exchange</code>的类型。有常见以下几种类型：</p>
-<ul>
-<li><strong>Fanout</strong>：广播。将消息交给所有绑定到交换机的队列</li>
-<li><strong>Direct</strong>：定向。把消息交给符合指定routing key的队列</li>
-<li><strong>Topic</strong>：通配符。把消息交给符合routing pattern(路由模式)的队列</li>
-<li><strong>Header</strong>：通过消息内容中的headers属性来进行匹配</li>
-</ul>
-<h4 id="2，点对点工作模式"><a href="#2，点对点工作模式" class="headerlink" title="2，点对点工作模式"></a>2，点对点工作模式</h4><p>其中一个消息只能被一个消费者接收。这种模式通常用于任务队列（Task Queue），确保每个任务只被一个工作进程（Worker）处理</p>
-<p>流程如下：</p>
-<ol>
-<li><strong>生产者（Producer）</strong>：<ul>
-<li>生产者将消息发送到队列中。</li>
-<li>消息被发送到一个特定的队列，而不是多个队列。</li>
-</ul>
-</li>
-<li><strong>队列（Queue）</strong>：<ul>
-<li>队列存储消息，直到它们被消费者消费。</li>
-<li>每个消息在队列中只能被一个消费者接收。</li>
-</ul>
-</li>
-<li><strong>消费者（Consumer）</strong>：<ul>
-<li>一个或多个消费者从队列中接收消息。</li>
-<li>每个消息只能被一个消费者接收和处理。</li>
-<li>消费者处理完消息后，通常会发送一个确认（Acknowledgment）回队列，表示消息已被成功处理。</li>
-</ul>
-</li>
-</ol>
-<p>这个过程记住，在消费完成之后，要发送一个确认消息回队列，并且如果有多个消费者的时候，消息队列会自动的进行负载均衡，这种主要适用于不被重复处理的任务中。</p>
-<h3 id="最常见八股"><a href="#最常见八股" class="headerlink" title="最常见八股"></a>最常见八股</h3><p>这里我先只结合我的面试和看的一些八股资料说一下最常见的八股，其它的我会在后面单独再写一篇，和netty一篇一样，这里的答案主要来自于小林codeing等八股资料</p>
-<p><img src="https://pic1.imgdb.cn/item/6804b00b58cb8da5c8b8fa0a.png" alt="Pasted image 20250420155244.png"><br><a href="http://xiaolincoding.com/interview/mq.html#%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97%E7%9A%84%E6%B6%88%E6%81%AF%E7%A7%AF%E5%8E%8B%E9%97%AE%E9%A2%98">图片来源于小林codeing</a></p>
-<h4 id="1，消息重复消费怎么办"><a href="#1，消息重复消费怎么办" class="headerlink" title="1，消息重复消费怎么办"></a>1，消息重复消费怎么办</h4><p>生产端为了保证消息发送成功，可能会重复推送，知道收到成功ACK，会产生重复的消息，但是仅靠消费端是无法完全保证的，在高并发场景中，发送消息，接收消息的这个过程通常会在一个事务中，会产生重复消费，另外消费端服务宕机也可能会产生重复消息，所以在业务端，对于已经重复消费的消息，在本地数据库或者redis中要做好表示，保证幂等性。</p>
-<p>在我的简历项目中，主要采用的是开启手动确认机制，和在Redis中添加消息ID用来确保幂等性</p>
-<h4 id="2，消息丢失怎么办"><a href="#2，消息丢失怎么办" class="headerlink" title="2，消息丢失怎么办"></a>2，消息丢失怎么办</h4><ol>
-<li>使用消息持久化机制（MessageDeliveryMode.PERSISTENT），确保消息在RabbitMQ服务器重启后不会丢失；</li>
-<li>在生产者端使用消息确认机制（publisher confirm），确保消息成功发送到RabbitMQ服务器</li>
-<li>在消费者端使用手动确认模式（manual ack），确保消息被正确处理后才会被删除；</li>
-<li>对于重要的业务消息，使用死信队列机制处理消费失败的消息，防止消息丢失。</li>
-</ol>
-<p>在kafka中一般是采用集群部署，一个节点有多个副本来确保消息不会丢失</p>
-<h4 id="3，消息积压的问题怎么处理"><a href="#3，消息积压的问题怎么处理" class="headerlink" title="3，消息积压的问题怎么处理"></a>3，消息积压的问题怎么处理</h4><p>消息积压是由于生产消息的速度大于消费者消费消息的速度。<br>首先可以先看看是不是业务中出现bug，或者消费者服务宕机了<br>其次可以优化消费逻辑，比如进行批量消息消费，或者进行水平扩容<br>最后如果积压时间很长，影响了系统的正常运行，可以紧急临时扩容</p>
-]]></content>
-      <tags>
-        <tag>自学八股</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>自学八股：对netty的初步理解和应用</title>
-    <url>/2025/04/20/%E8%87%AA%E5%AD%A6%E5%85%AB%E8%82%A1%EF%BC%9A%E5%AF%B9netty%E7%9A%84%E5%88%9D%E6%AD%A5%E7%90%86%E8%A7%A3%E5%92%8C%E5%BA%94%E7%94%A8/</url>
-    <content><![CDATA[<p>Netty 是一个基于 Java NIO 的高性能、异步事件驱动的网络应用框架<br>在我简历的项目中，netty主要应用到了消息中心的消息推送提醒和在线的一个实时群聊</p>
-<p>netty是一个比较难的技术，在这个项目中netty被用做消息通知，在线群聊，我主要理解它的基本API，怎么用的，三个核心组件，NIO与BIO的原理和八股，基于Netty是如何实现websocket的就可以了</p>
-<ul>
-<li><strong>基础组件</strong>：从<code>ChannelHandler</code>（处理IO事件）、<code>Bootstrap</code>（启动类）、<code>EventLoop</code>（事件循环）入手，理解其责任链模式（ </li>
-<li><strong>编解码</strong>：掌握<code>ByteBuf</code>（高效缓冲区）和<code>StringEncoder/Decoder</code>（字符串编解码），逐步扩展到复杂协议（如Protobuf）（ </li>
-<li><strong>线程模型</strong>：区分<code>bossGroup</code>（接收连接）和<code>workerGroup</code>（处理业务），避免阻塞事件循环</li>
-</ul>
-<p>在Netty中，服务端既实现服务器（Server）又实现客户端（Client）的开发模式，通常被称为<strong>双向通信模式</strong>或<strong>全双工通信模式</strong>。这种模式的核心在于服务端不仅能被动接收客户端请求，还能主动向其他服务端或客户端发起连接并发送数据，形成双向交互的网络架构</p>
-<p>由于使用到了webSocket，就不能在前端使用常规的异步请求框架了，前端也有对应的实现，所以这里就可以看出来websocket长连接和短连接的区别了</p>
-<h3 id="SpringBoot项目中引入Netty"><a href="#SpringBoot项目中引入Netty" class="headerlink" title="SpringBoot项目中引入Netty"></a>SpringBoot项目中引入Netty</h3><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span>  </span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>io.netty<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span>  </span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>netty-all<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span>  </span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="netty中的比较重要的组件"><a href="#netty中的比较重要的组件" class="headerlink" title="netty中的比较重要的组件"></a>netty中的比较重要的组件</h3><p><strong>Channel</strong>: Netty 拥有自己的 Channel 实现（例如 <code>NioSocketChannel</code>, <code>NioServerSocketChannel</code>），这些实现底层仍然基于 Java NIO 的 Channel，但提供了更多的功能和更好的性能。</p>
-<p><strong>Buffer</strong>: Netty 提供了 <code>ByteBuf</code>，它是对 Java NIO ByteBuffer 的改进和增强。 <code>ByteBuf</code> 更加灵活、易用、高效，并且解决了 ByteBuffer 的一些问题，例如 flip 操作的繁琐。</p>
-<p><strong>Selector</strong>: Netty 使用 <code>EventLoop</code> 来替代 Java NIO 的 Selector。 <code>EventLoop</code> 更加高效、可靠，并且解决了 Java NIO 的 Epoll 空轮询 Bug。</p>
-<h3 id="结合项目学习"><a href="#结合项目学习" class="headerlink" title="结合项目学习"></a>结合项目学习</h3><h4 id="群发消息和一对一实时聊天"><a href="#群发消息和一对一实时聊天" class="headerlink" title="群发消息和一对一实时聊天"></a>群发消息和一对一实时聊天</h4><p>用户发送消息，用户本人是通过接口返回的数据迅速的查看，其它用户则是通过webSocket主动推送</p>
-<h5 id="WebSocket"><a href="#WebSocket" class="headerlink" title="WebSocket"></a>WebSocket</h5><p>WebSocket 是一种网络通信协议，用于在客户端（通常是浏览器）和服务器之间建立全双工通信通道。这意味着一旦建立连接，客户端和服务器可以随时向对方发送消息，而不需要像传统的 HTTP 请求那样每次都重新建立连接。WebSocket 通常用于实时通信场景，如聊天应用、在线游戏、实时通知等。</p>
-<p><strong>1. WebSocket 的主要特点</strong></p>
-<ul>
-<li><strong>全双工通信</strong>：客户端和服务器可以同时发送和接收消息。</li>
-<li><strong>低延迟</strong>：一旦建立连接，消息传输的延迟非常低，适合实时应用。</li>
-<li><strong>基于 TCP</strong>：WebSocket 建立在 TCP 协议之上，确保数据传输的可靠性。</li>
-<li><strong>支持多种数据格式</strong>：可以传输文本数据（如 JSON）或二进制数据。<br><strong>2. WebSocket 的工作原理</strong></li>
-</ul>
-<ol>
-<li><strong>握手阶段</strong>：客户端通过 HTTP 请求向服务器发起 WebSocket 连接请求。服务器响应一个特殊的 HTTP 响应，表示同意建立 WebSocket 连接。</li>
-<li><strong>通信阶段</strong>：一旦握手成功，客户端和服务器之间就建立了一个 WebSocket 连接。双方可以随时发送和接收消息。</li>
-<li><strong>关闭阶段</strong>：当不再需要通信时，客户端或服务器可以发送关闭帧来关闭连接。</li>
-</ol>
-<h5 id="通过Netty实现WebSocket"><a href="#通过Netty实现WebSocket" class="headerlink" title="通过Netty实现WebSocket"></a>通过Netty实现WebSocket</h5><p>在我个人的简历项目中，这个实现主要涉及到这么几个类<br><code>WebSocketService</code> webSocket相关的业务逻辑<br><code>HttpHeadersHandler</code> 协议升级前的处理器<br><code>NettyWebSocketServerHandler</code> 协议升级后的处理器<br><code>NettyWebSocketServer</code> 主类<br><code>NettyUtil</code> 工具类</p>
-<p>这个过程主要实现了，将Http协议升级为WebSocket协议，并发处理websocket一些连接和断开连接的操作，还有主要的业务逻辑在<code>WebSocketServcie</code>里面进行了封装。</p>
-<p><strong>HttpHeadersHandler</strong>  </p>
-<p>在协议进行升级前，传输的消息类型还是FullHttpRequest，这个类主要就是用于处理请求头信息，提取请求头中的token和客户端IP地址，把这些信息存储到Channel的属性中，在后续的WebSocket中使用到。</p>
-<p><strong>NettyWebSocketServer</strong>主类  </p>
-<ol>
-<li>通过bossGroup和workerGroup两个线程池分别处理连接请求和具体的业务逻辑；</li>
-<li>配置了多个处理器，包括心跳检测（IdleStateHandler）、HTTP编解码（HttpServerCodec）、分块传输（ChunkedWriteHandler）等；</li>
-<li>实现了WebSocket协议的升级，支持从HTTP协议升级到WebSocket协议；</li>
-<li>通过自定义的NettyWebSocketServerHandler处理具体的业务逻辑；</li>
-<li>支持优雅关闭服务器，确保资源的正确释放。</li>
-</ol>
-<p>协议升级的具体实现  </p>
-<blockquote>
-<p>在<code>NettyWebSocketServe</code>r中，WebSocket协议升级是通过<code>WebSocketServerProtocolHandler</code>处理器实现的。在pipeline中，首先通过<code>HttpServerCodec</code>处理HTTP请求，然后使用<code>HttpObjectAggregator</code>将分段的HTTP数据聚合，接着通过<code>HttpHeadersHandler</code>获取并保存用户信息，最后<code>WebSocketServerProtocolHandler</code>会将HTTP协议升级为WebSocket协议，完成握手过程并建立全双工通信。</p>
-</blockquote>
-<p><strong>NettySocketServerHandler</strong></p>
-<p>WebSocket处理器，主要实现了以下功能：</p>
-<ol>
-<li>处理WebSocket连接的建立和断开；</li>
-<li>实现了心跳检测机制，当读空闲超时时会断开连接；</li>
-<li>处理客户端发送的消息，根据消息类型（如登录、心跳等）进行不同的业务处理；</li>
-<li>处理连接异常情况，在发生异常时关闭连接；</li>
-<li>在连接建立时进行token验证，支持用户认证。</li>
-</ol>
-<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>本文笔者主要结合了一些netty的基础知识和我简历项目中的应用，由于笔者的简历项目是一个付费的学习项目，项目作者并没有把代码开源，出于对项目作者的尊重，没有贴具体的代码，只是说了一些我自己的理解，之前在面试美团的时候，面试官针对netty问了很多问题，具体的应用，阻塞IO和非阻塞IO这些，我都回答的不是特别好，后面准备写一下Netty的一些更深入的八股，让自己也能更深入的去了解Netty,顺便写一个第一次面试美团的面试体验</p>
-]]></content>
-      <tags>
-        <tag>自学八股</tag>
-      </tags>
-  </entry>
+<search> 
+  
+  
+    
+    <entry>
+      <title>自学八股：rabbitmq基础</title>
+      <link href="/2025/04/20/%E8%87%AA%E5%AD%A6%E5%85%AB%E8%82%A1%EF%BC%9Arabbitmq%E5%9F%BA%E7%A1%80/"/>
+      <url>/2025/04/20/%E8%87%AA%E5%AD%A6%E5%85%AB%E8%82%A1%EF%BC%9Arabbitmq%E5%9F%BA%E7%A1%80/</url>
+      
+        <content type="html"><![CDATA[<h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><p>通过队列功能进行消息传递，生产者将消息放到队列里，消费者可以到指定的队列去拉取消息，或者订阅对应的队列，由MQ服务端给其推送消息</p><h3 id="核心功能"><a href="#核心功能" class="headerlink" title="核心功能"></a>核心功能</h3><h5 id="1，流量削峰填谷"><a href="#1，流量削峰填谷" class="headerlink" title="1，流量削峰填谷"></a>1，流量削峰填谷</h5><p>在当前互联网的业务场景下，比如<strong>商品秒杀</strong>，在较短时间内，瞬时涌入大量请求，这个时候系统资源可能会耗尽，造成服务器瘫痪。<br>可以使用消息队列来缓冲瞬时流量，通过一个队列在一端承接瞬时的流量洪峰，在另一端平滑地将消息推送出去<br>这个过程中由于消息队列限制了消息的发送频率，所以肯定会有大量的消息积压在消息队列中可能会产生消息积压的问题，这个在实际情况中需要考虑</p><h5 id="2，应用解耦"><a href="#2，应用解耦" class="headerlink" title="2，应用解耦"></a>2，应用解耦</h5><p>常用在微服务系统中，用于提高系统的可用性，比如在一个商城系统中，有订单服务和物流服务，从订单服务产生的请求通过消息队列发送给物流服务，如果物流服务出现了问题，消息会短时间内积压在消息队列中，直到下游服务恢复之后，会继续处理请求，在这个过程中用户是感知不到的</p><h5 id="3，异步处理"><a href="#3，异步处理" class="headerlink" title="3，异步处理"></a>3，异步处理</h5><p>可以类比多线程优化接口的响应性能，A 调用 B 服务后，只需要监听 B 处理完成的消息，当 B 处理完成后，会发送一条消息给 MQ，MQ 会将此消息转发给 A 服务。这样 A 服务既不用循环调用 B 的查询 api，也不用提供回调接口。同样B 服务也不用做这些操作。A 服务还能及时的得到异步处理成功的消息，比如一些文件上传的服务</p><h3 id="AMQP"><a href="#AMQP" class="headerlink" title="AMQP"></a>AMQP</h3><p>在rabbitmq中主要使用的是AMQP协议，<br>特性：</p><ul><li>独立于平台的底层消息传递协议。</li><li>消费者驱动消息传递。</li><li>跨语言和平台的互用性、属于底层协议。</li><li>有5种交换类型direct,fanout,topic,headers,system。</li><li>面向缓存的、可实现高性能、支持经典的消息队列，循环，存储和转发。</li><li>支持长周期消息传递、支持事务（跨消息队列）</li></ul><h3 id="RabbitMQ的核心概念："><a href="#RabbitMQ的核心概念：" class="headerlink" title="RabbitMQ的核心概念："></a>RabbitMQ的核心概念：</h3><p><strong>Producer（生产者）、Connection（连接）、Channel（信道）、Exchange（交换机）、Queue（队列）、Virtual host（虚拟主机）、Consumer（消费者）、Routing Key（路由键）、Binding（绑定）等</strong></p><p>解释：</p><h5 id="Producer（生产者）"><a href="#Producer（生产者）" class="headerlink" title="Producer（生产者）"></a>Producer（生产者）</h5><p>产生数据发送消息的程序是<code>生产者（Producer）</code>。</p><h5 id="Connection（连接）"><a href="#Connection（连接）" class="headerlink" title="Connection（连接）"></a>Connection（连接）</h5><p>每个生产者或者消费者要通过<code>RabbitMQ</code>发送与消费消息，首先就要与<code>RabbitMQ</code>建立连接，这个连接就是<code>Connection</code>，这是一个<code>TCP</code>长连接。</p><h5 id="Channel（信道）"><a href="#Channel（信道）" class="headerlink" title="Channel（信道）"></a>Channel（信道）</h5><p>如果每一次访问<code>RabbitMQ</code>都建立一个<code>Connection</code>，在消息量大的时候建立 <code>TCP 连接</code>的开销将是巨大的，效率也较低，在系统访问流量高峰时，会严重影响系统性能。</p><p><code>Channel（信道）</code>是在<code>Connection</code>内部建立的逻辑连接，如果应用程序支持多线程，通常每个线程创建单独的<code>channel</code>进行通讯， channel 之间是完全隔离的。<code>Channel</code>作为轻量级的<code>Connection</code> 极大减少了操作系统建立<code>TCP connection</code>的开销 。</p><p><code>RabbitMQ</code>中大部分的操作都是使用<code>Channel</code>完成的，比如：声明<code>Queue</code>、声明<code>Exchange</code>、发布消息、消费消息等。<br>这个可以类比用netty实现websocket的过程中，netty中的channel</p><h5 id="Broker（服务端）"><a href="#Broker（服务端）" class="headerlink" title="Broker（服务端）"></a>Broker（服务端）</h5><p><code>Broker（服务端）</code>接收和分发消息的应用，<code>RabbitMQ Server</code>（服务端） 就是 <code>Message Broker</code>。</p><h5 id="Virtual-host（虚拟主机）"><a href="#Virtual-host（虚拟主机）" class="headerlink" title="Virtual host（虚拟主机）"></a>Virtual host（虚拟主机）</h5><p><code>Virtual host</code>是一个虚拟主机的概念，一个<code>Broker</code>中可以有多个虚拟主机。</p><p>出于多租户和安全因素设计的，把 <code>AMQP</code> 的基本组件划分到一个虚拟的分组中，类似于网络中的命名空间概念。</p><p>当多个不同的用户使用同一个<code>RabbitMQ server</code> 提供的服务时，可以划分出多个<code>vhost</code>，每个用户在自己的 <code>vhost</code>创建 <code>exchange／queue</code>等，很好地做到了不同用户之间相互隔离的效果。</p><h5 id="Exchange（交换机）"><a href="#Exchange（交换机）" class="headerlink" title="Exchange（交换机）"></a>Exchange（交换机）</h5><p><code>交换机</code>是 <code>RabbitMQ</code>非常重要的一个部件，一方面它接收来自生产者的消息，另一方面它将消息推送到队列中。交换机必须确切知道如何处理它接收到的消息，是将这些消息推送到特定队列还是推送到多个队列，亦或者是把消息丢弃，这个由交换机类型决定。</p><p>交换机有4种类型：<code>direct、fanout、topic、headers</code>。</p><h5 id="Queue（队列）"><a href="#Queue（队列）" class="headerlink" title="Queue（队列）"></a>Queue（队列）</h5><p>队列是<code>RabbitMQ</code> 内部使用的一种数据结构，尽管消息流经<code>RabbitMQ</code>和应用程序，但它们只能存储在队列中。队列仅受主机的内存和磁盘限制的约束，本质上是一个大的消息缓冲区。许多生产者可以将消息发送到一个队列，许多消费者可以尝试从一个队列接收数据。</p><h5 id="Binding（绑定）"><a href="#Binding（绑定）" class="headerlink" title="Binding（绑定）"></a>Binding（绑定）</h5><p><code>Binding（绑定）</code>是指交换机和队列之间的虚拟连接，绑定信息被保存到交换机中的查询表中，用于消息的分发依据。</p><h5 id="Routing-Key（路由键）"><a href="#Routing-Key（路由键）" class="headerlink" title="Routing Key（路由键）"></a>Routing Key（路由键）</h5><p>创建好<code>Exchange</code>和<code>Queue</code>之后，需要使用<code>Routing key（或者叫做Binding key）</code>将它们绑定起来，生产者在向交换机发送一条消息的时候，必须指定一个<code>Routing key</code>，然后交换机接收到这条消息之后，会解析<code>Routing key</code>，然后根据<code>Exchange</code>和<code>Queue</code>的绑定规则，将消息分发到符合规则的<code>Queue</code>中。</p><h5 id="Consumer（消费者）"><a href="#Consumer（消费者）" class="headerlink" title="Consumer（消费者）"></a>Consumer（消费者）</h5><p>接受消息并进行消费的程序是<code>Consumer（消费者）</code></p><p><img src="https://pic1.imgdb.cn/item/6804b04058cb8da5c8b8fae0.png" alt="Pasted image 20250420152612.png"></p><h3 id="工作模式"><a href="#工作模式" class="headerlink" title="工作模式"></a>工作模式</h3><p>由于我的简历中使用消息队列的时候主要使用的是发布&#x2F;订阅模式和点对点模式，所以这里先着重分析这两种工作模式</p><h4 id="1，发布-订阅模式"><a href="#1，发布-订阅模式" class="headerlink" title="1，发布&#x2F;订阅模式"></a>1，发布&#x2F;订阅模式</h4><p>作用流程：消息的发布者通过消息通道将消息广播出去，让订阅该消息主题的订阅者消费</p><p>流程如下：<br><strong>1、</strong> 生产者将消息发送到交换机；<br><strong>2、</strong> 交换机将信息发给所有绑定的队列；<br><strong>3、</strong> 绑定队列的消费者收到消息；</p><p>该模式需要指定一个<code>Exchange</code>交换机，起本身只负责转发消息，不具备存储消息的能力。一方面，接收生产者发送的消息。另一方面，需要知道如何处理消息，例如递交给某个特别队列、递交给所有队列、或是将消息丢弃。</p><p>到底如何操作，取决于<code>Exchange</code>的类型。有常见以下几种类型：</p><ul><li><strong>Fanout</strong>：广播。将消息交给所有绑定到交换机的队列</li><li><strong>Direct</strong>：定向。把消息交给符合指定routing key的队列</li><li><strong>Topic</strong>：通配符。把消息交给符合routing pattern(路由模式)的队列</li><li><strong>Header</strong>：通过消息内容中的headers属性来进行匹配</li></ul><h4 id="2，点对点工作模式"><a href="#2，点对点工作模式" class="headerlink" title="2，点对点工作模式"></a>2，点对点工作模式</h4><p>其中一个消息只能被一个消费者接收。这种模式通常用于任务队列（Task Queue），确保每个任务只被一个工作进程（Worker）处理</p><p>流程如下：</p><ol><li><strong>生产者（Producer）</strong>：<ul><li>生产者将消息发送到队列中。</li><li>消息被发送到一个特定的队列，而不是多个队列。</li></ul></li><li><strong>队列（Queue）</strong>：<ul><li>队列存储消息，直到它们被消费者消费。</li><li>每个消息在队列中只能被一个消费者接收。</li></ul></li><li><strong>消费者（Consumer）</strong>：<ul><li>一个或多个消费者从队列中接收消息。</li><li>每个消息只能被一个消费者接收和处理。</li><li>消费者处理完消息后，通常会发送一个确认（Acknowledgment）回队列，表示消息已被成功处理。</li></ul></li></ol><p>这个过程记住，在消费完成之后，要发送一个确认消息回队列，并且如果有多个消费者的时候，消息队列会自动的进行负载均衡，这种主要适用于不被重复处理的任务中。</p><h3 id="最常见八股"><a href="#最常见八股" class="headerlink" title="最常见八股"></a>最常见八股</h3><p>这里我先只结合我的面试和看的一些八股资料说一下最常见的八股，其它的我会在后面单独再写一篇，和netty一篇一样，这里的答案主要来自于小林codeing等八股资料</p><p><img src="https://pic1.imgdb.cn/item/6804b00b58cb8da5c8b8fa0a.png" alt="Pasted image 20250420155244.png"><br><a href="http://xiaolincoding.com/interview/mq.html#%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97%E7%9A%84%E6%B6%88%E6%81%AF%E7%A7%AF%E5%8E%8B%E9%97%AE%E9%A2%98">图片来源于小林codeing</a></p><h4 id="1，消息重复消费怎么办"><a href="#1，消息重复消费怎么办" class="headerlink" title="1，消息重复消费怎么办"></a>1，消息重复消费怎么办</h4><p>生产端为了保证消息发送成功，可能会重复推送，知道收到成功ACK，会产生重复的消息，但是仅靠消费端是无法完全保证的，在高并发场景中，发送消息，接收消息的这个过程通常会在一个事务中，会产生重复消费，另外消费端服务宕机也可能会产生重复消息，所以在业务端，对于已经重复消费的消息，在本地数据库或者redis中要做好表示，保证幂等性。</p><p>在我的简历项目中，主要采用的是开启手动确认机制，和在Redis中添加消息ID用来确保幂等性</p><h4 id="2，消息丢失怎么办"><a href="#2，消息丢失怎么办" class="headerlink" title="2，消息丢失怎么办"></a>2，消息丢失怎么办</h4><ol><li>使用消息持久化机制（MessageDeliveryMode.PERSISTENT），确保消息在RabbitMQ服务器重启后不会丢失；</li><li>在生产者端使用消息确认机制（publisher confirm），确保消息成功发送到RabbitMQ服务器</li><li>在消费者端使用手动确认模式（manual ack），确保消息被正确处理后才会被删除；</li><li>对于重要的业务消息，使用死信队列机制处理消费失败的消息，防止消息丢失。</li></ol><p>在kafka中一般是采用集群部署，一个节点有多个副本来确保消息不会丢失</p><h4 id="3，消息积压的问题怎么处理"><a href="#3，消息积压的问题怎么处理" class="headerlink" title="3，消息积压的问题怎么处理"></a>3，消息积压的问题怎么处理</h4><p>消息积压是由于生产消息的速度大于消费者消费消息的速度。<br>首先可以先看看是不是业务中出现bug，或者消费者服务宕机了<br>其次可以优化消费逻辑，比如进行批量消息消费，或者进行水平扩容<br>最后如果积压时间很长，影响了系统的正常运行，可以紧急临时扩容</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 自学八股 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>自学八股：对netty的初步理解和应用</title>
+      <link href="/2025/04/20/%E8%87%AA%E5%AD%A6%E5%85%AB%E8%82%A1%EF%BC%9A%E5%AF%B9netty%E7%9A%84%E5%88%9D%E6%AD%A5%E7%90%86%E8%A7%A3%E5%92%8C%E5%BA%94%E7%94%A8/"/>
+      <url>/2025/04/20/%E8%87%AA%E5%AD%A6%E5%85%AB%E8%82%A1%EF%BC%9A%E5%AF%B9netty%E7%9A%84%E5%88%9D%E6%AD%A5%E7%90%86%E8%A7%A3%E5%92%8C%E5%BA%94%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<p>Netty 是一个基于 Java NIO 的高性能、异步事件驱动的网络应用框架<br>在我简历的项目中，netty主要应用到了消息中心的消息推送提醒和在线的一个实时群聊</p><p>netty是一个比较难的技术，在这个项目中netty被用做消息通知，在线群聊，我主要理解它的基本API，怎么用的，三个核心组件，NIO与BIO的原理和八股，基于Netty是如何实现websocket的就可以了</p><ul><li><strong>基础组件</strong>：从<code>ChannelHandler</code>（处理IO事件）、<code>Bootstrap</code>（启动类）、<code>EventLoop</code>（事件循环）入手，理解其责任链模式（ </li><li><strong>编解码</strong>：掌握<code>ByteBuf</code>（高效缓冲区）和<code>StringEncoder/Decoder</code>（字符串编解码），逐步扩展到复杂协议（如Protobuf）（ </li><li><strong>线程模型</strong>：区分<code>bossGroup</code>（接收连接）和<code>workerGroup</code>（处理业务），避免阻塞事件循环</li></ul><p>在Netty中，服务端既实现服务器（Server）又实现客户端（Client）的开发模式，通常被称为<strong>双向通信模式</strong>或<strong>全双工通信模式</strong>。这种模式的核心在于服务端不仅能被动接收客户端请求，还能主动向其他服务端或客户端发起连接并发送数据，形成双向交互的网络架构</p><p>由于使用到了webSocket，就不能在前端使用常规的异步请求框架了，前端也有对应的实现，所以这里就可以看出来websocket长连接和短连接的区别了</p><h3 id="SpringBoot项目中引入Netty"><a href="#SpringBoot项目中引入Netty" class="headerlink" title="SpringBoot项目中引入Netty"></a>SpringBoot项目中引入Netty</h3><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span>  </span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>io.netty<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span>  </span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>netty-all<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span>  </span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure><h3 id="netty中的比较重要的组件"><a href="#netty中的比较重要的组件" class="headerlink" title="netty中的比较重要的组件"></a>netty中的比较重要的组件</h3><p><strong>Channel</strong>: Netty 拥有自己的 Channel 实现（例如 <code>NioSocketChannel</code>, <code>NioServerSocketChannel</code>），这些实现底层仍然基于 Java NIO 的 Channel，但提供了更多的功能和更好的性能。</p><p><strong>Buffer</strong>: Netty 提供了 <code>ByteBuf</code>，它是对 Java NIO ByteBuffer 的改进和增强。 <code>ByteBuf</code> 更加灵活、易用、高效，并且解决了 ByteBuffer 的一些问题，例如 flip 操作的繁琐。</p><p><strong>Selector</strong>: Netty 使用 <code>EventLoop</code> 来替代 Java NIO 的 Selector。 <code>EventLoop</code> 更加高效、可靠，并且解决了 Java NIO 的 Epoll 空轮询 Bug。</p><h3 id="结合项目学习"><a href="#结合项目学习" class="headerlink" title="结合项目学习"></a>结合项目学习</h3><h4 id="群发消息和一对一实时聊天"><a href="#群发消息和一对一实时聊天" class="headerlink" title="群发消息和一对一实时聊天"></a>群发消息和一对一实时聊天</h4><p>用户发送消息，用户本人是通过接口返回的数据迅速的查看，其它用户则是通过webSocket主动推送</p><h5 id="WebSocket"><a href="#WebSocket" class="headerlink" title="WebSocket"></a>WebSocket</h5><p>WebSocket 是一种网络通信协议，用于在客户端（通常是浏览器）和服务器之间建立全双工通信通道。这意味着一旦建立连接，客户端和服务器可以随时向对方发送消息，而不需要像传统的 HTTP 请求那样每次都重新建立连接。WebSocket 通常用于实时通信场景，如聊天应用、在线游戏、实时通知等。</p><p><strong>1. WebSocket 的主要特点</strong></p><ul><li><strong>全双工通信</strong>：客户端和服务器可以同时发送和接收消息。</li><li><strong>低延迟</strong>：一旦建立连接，消息传输的延迟非常低，适合实时应用。</li><li><strong>基于 TCP</strong>：WebSocket 建立在 TCP 协议之上，确保数据传输的可靠性。</li><li><strong>支持多种数据格式</strong>：可以传输文本数据（如 JSON）或二进制数据。<br><strong>2. WebSocket 的工作原理</strong></li></ul><ol><li><strong>握手阶段</strong>：客户端通过 HTTP 请求向服务器发起 WebSocket 连接请求。服务器响应一个特殊的 HTTP 响应，表示同意建立 WebSocket 连接。</li><li><strong>通信阶段</strong>：一旦握手成功，客户端和服务器之间就建立了一个 WebSocket 连接。双方可以随时发送和接收消息。</li><li><strong>关闭阶段</strong>：当不再需要通信时，客户端或服务器可以发送关闭帧来关闭连接。</li></ol><h5 id="通过Netty实现WebSocket"><a href="#通过Netty实现WebSocket" class="headerlink" title="通过Netty实现WebSocket"></a>通过Netty实现WebSocket</h5><p>在我个人的简历项目中，这个实现主要涉及到这么几个类<br><code>WebSocketService</code> webSocket相关的业务逻辑<br><code>HttpHeadersHandler</code> 协议升级前的处理器<br><code>NettyWebSocketServerHandler</code> 协议升级后的处理器<br><code>NettyWebSocketServer</code> 主类<br><code>NettyUtil</code> 工具类</p><p>这个过程主要实现了，将Http协议升级为WebSocket协议，并发处理websocket一些连接和断开连接的操作，还有主要的业务逻辑在<code>WebSocketServcie</code>里面进行了封装。</p><p><strong>HttpHeadersHandler</strong>  </p><p>在协议进行升级前，传输的消息类型还是FullHttpRequest，这个类主要就是用于处理请求头信息，提取请求头中的token和客户端IP地址，把这些信息存储到Channel的属性中，在后续的WebSocket中使用到。</p><p><strong>NettyWebSocketServer</strong>主类  </p><ol><li>通过bossGroup和workerGroup两个线程池分别处理连接请求和具体的业务逻辑；</li><li>配置了多个处理器，包括心跳检测（IdleStateHandler）、HTTP编解码（HttpServerCodec）、分块传输（ChunkedWriteHandler）等；</li><li>实现了WebSocket协议的升级，支持从HTTP协议升级到WebSocket协议；</li><li>通过自定义的NettyWebSocketServerHandler处理具体的业务逻辑；</li><li>支持优雅关闭服务器，确保资源的正确释放。</li></ol><p>协议升级的具体实现  </p><blockquote><p>在<code>NettyWebSocketServe</code>r中，WebSocket协议升级是通过<code>WebSocketServerProtocolHandler</code>处理器实现的。在pipeline中，首先通过<code>HttpServerCodec</code>处理HTTP请求，然后使用<code>HttpObjectAggregator</code>将分段的HTTP数据聚合，接着通过<code>HttpHeadersHandler</code>获取并保存用户信息，最后<code>WebSocketServerProtocolHandler</code>会将HTTP协议升级为WebSocket协议，完成握手过程并建立全双工通信。</p></blockquote><p><strong>NettySocketServerHandler</strong></p><p>WebSocket处理器，主要实现了以下功能：</p><ol><li>处理WebSocket连接的建立和断开；</li><li>实现了心跳检测机制，当读空闲超时时会断开连接；</li><li>处理客户端发送的消息，根据消息类型（如登录、心跳等）进行不同的业务处理；</li><li>处理连接异常情况，在发生异常时关闭连接；</li><li>在连接建立时进行token验证，支持用户认证。</li></ol><h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>本文笔者主要结合了一些netty的基础知识和我简历项目中的应用，由于笔者的简历项目是一个付费的学习项目，项目作者并没有把代码开源，出于对项目作者的尊重，没有贴具体的代码，只是说了一些我自己的理解，之前在面试美团的时候，面试官针对netty问了很多问题，具体的应用，阻塞IO和非阻塞IO这些，我都回答的不是特别好，后面准备写一下Netty的一些更深入的八股，让自己也能更深入的去了解Netty,顺便写一个第一次面试美团的面试体验</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 自学八股 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>自学八股系列：序言</title>
+      <link href="/2025/04/19/%E8%87%AA%E5%AD%A6%E5%85%AB%E8%82%A1%E7%B3%BB%E5%88%97%EF%BC%9A%E5%BA%8F%E8%A8%80/"/>
+      <url>/2025/04/19/%E8%87%AA%E5%AD%A6%E5%85%AB%E8%82%A1%E7%B3%BB%E5%88%97%EF%BC%9A%E5%BA%8F%E8%A8%80/</url>
+      
+        <content type="html"><![CDATA[<h3 id="创作初衷"><a href="#创作初衷" class="headerlink" title="创作初衷"></a>创作初衷</h3><p>纸上得来终觉浅，绝知此事要躬行</p><p>各位读者好，很荣幸我的文字能够通过无数字节飞舞的互联网呈现在你的眼前，也让我这个即将步入互联网行业的小透明的心声可以展示给各位，下面就来说一下我为什么想写这一系列文章。</p><p>笔者刚上初中的时候，正值互联网的风口期，层出不穷的网络事物改变着我们的生活，约车，电商，短视频，人工智能等等，互联网行业处于飞速发展的上升期，高薪神话吸引了无数人前仆后继的涌入这个行业，我们漂浮在巨大的泡沫之上，但是随着互联网行业停止了最开始的野蛮增长逐渐转入平稳发展之后，当各大互联网公司不再需要人力去做原始积累的时候，计算机专业学生的就业形势远不如从前，加之疫情的影响，其它行业的不景气，大量的冷门专业毕业生，也想通过转码来保持最基本的温饱，导致了现在的就业简直卷到了极致。</p><p>笔者就是在这样的环境中进入了大学，在焦虑和迷茫中来到了大二。在过去的两年，我去了解计算机行业的很多领域，不过大部分都是浅尝辄止，连最基本的成果都没有。在大一的时候接触到了后端开发，我觉得还算可以，便慢慢决定向着这个方向学习（后面才知道这是就业最卷的领域）</p><p>当时的我每天焦虑的刷着牛客和知乎，看着前辈们进入大厂之后的经验分享和学习路线，看着面经和别人的简历，心中幻想着自己以后进入大厂之后应该怎么在朋友圈炫耀自己的offer</p><p>可是，慢慢的我觉得这并不是我想要的，现在我认识大部分同学的学习都是照着视频不断地抄代码，一个视频接着一个视频，让我想到了工厂流水线上生产出来的商品，大家都一模一样，没有瑕疵但是也没有特点，像极了在高中背诵数学大题答案的那个傻傻的自己</p><p>所以我决定不再把学习技术当做像学生时代应对一场考试那样，我决定写技术博客记录自己的思考，这个系列的文章就是尝试的开始，八股使我们面向就业的捷径，但是我不想真的像清朝八股取士那样一遍一遍的去背，而是把这个当做大纲去真正的学习，去像一个工程师一样思考</p><h3 id="创作内容"><a href="#创作内容" class="headerlink" title="创作内容"></a>创作内容</h3><p>按照我自己的想法，这是我写技术博客的一个尝试的开始，之前自己写过的博客多半是复制粘贴的知识加上一点自己的解释，或者毫无逻辑的题解，现在我想通过这写文章，记录自己的学习过程和思考，哪怕那些思考很浅薄或者很可笑</p><h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>在这个快节奏的时代，谈梦想都是廉价的，但是我始终都告诉我自己要记得自己究竟想成为什么样的人，究竟想过怎么样的生活，与诸位共勉</p><p>最后，希望大家可以喜欢我的文章（想了好久，还是这样写结束语吧）</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 自学八股 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>自学八股：CAS和AQS</title>
+      <link href="/2025/04/19/%E8%87%AA%E5%AD%A6%E5%85%AB%E8%82%A1%EF%BC%9ACAS%E5%92%8CAQS/"/>
+      <url>/2025/04/19/%E8%87%AA%E5%AD%A6%E5%85%AB%E8%82%A1%EF%BC%9ACAS%E5%92%8CAQS/</url>
+      
+        <content type="html"><![CDATA[<h3 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h3><p>在对java并发编程的考察中CAS和AQS这两个概念的考察出现的频率是非常高的，所以本文主要通过笔者看过的文章和源码解读做一些整理和自己的思考，关于这两个概念。</p><h4 id="面试题举例"><a href="#面试题举例" class="headerlink" title="面试题举例"></a>面试题举例</h4><ul><li>java哪些地方使用到了CAS</li><li>CAS有什么问题怎么解决</li><li>AQS独占式获取\释放锁的原理</li><li>…</li></ul><h4 id="前置概念"><a href="#前置概念" class="headerlink" title="前置概念"></a>前置概念</h4><p>1、线程同步</p><p>在多线程环境中，<strong>协调多个线程对共享资源的访问</strong>，以确保数据的一致性和完整性。在多线程程序中，多个线程可能会同时访问和修改共享资源，如果没有适当的同步机制，可能会导致数据竞争（Race Condition）、数据不一致或死锁等问题。线程同步的目的是通过控制线程的执行顺序，确保在任意时刻只有一个线程可以访问共享资源，或者多个线程可以安全地访问共享资源。</p><p>2、线程安全</p><p>在多线程环境中，<strong>一个类或代码段能够被多个线程安全地访问，而不会导致数据不一致或错误的行为</strong>。换句话说，线程安全的代码在并发执行时，能够保证数据的完整性和一致性。</p><p>实现方法：</p><ol><li>互斥同步：synchronized，ReentrantLock</li><li>非阻塞同步：CAS，Atomic</li><li>无同步方案：栈封闭，Thread Local，可重入代码</li></ol><h3 id="CAS"><a href="#CAS" class="headerlink" title="CAS"></a>CAS</h3><p>CAS本质上是通过硬件实现的，是一条CPU的原子指令，让CPU比较两个值是否相等，然后原子地更新某个位置，所以CAS是基于硬件实现的，JVM对底层的接口进行了封装，JDK中的原子类则是对这个接口进行了调用<br>这里的CAS是基于底层硬件实现的，除了在并发编程中有无锁化这种理念，其实我还觉得，这是由于虚拟机会进行指令重排</p><h4 id="CAS可能产生的问题"><a href="#CAS可能产生的问题" class="headerlink" title="CAS可能产生的问题"></a>CAS可能产生的问题</h4><ol><li><p>ABA问题</p><blockquote><p>解决方案：<br>使用版本号，每次更新变量的值的时候，就在版本号上加一Java 1.5开始，JDK的Atomic包里提供了一个类AtomicStampedReference来解决ABA问题。这个类的compareAndSet方法的作用是首先检查当前引用是否等于预期引用，并且检查当前标志是否等于预期标志，如果全部相等，则以原子方式将该引用和该标志的值设置为给定的更新值。其实在MySQL数据库中一些无锁化的处理也是这样基于版本号实现的</p></blockquote></li><li><p>循环时间长开销大</p><blockquote><p>解决方案：<br>JVM支持处理器提供的pause指令</p></blockquote></li><li><p>只能保证一个共享变量的原子操作</p><blockquote><p>解决方案：<br>通过JDK提供的AtomicReference来实现对多个共享变量的原子操作</p></blockquote></li></ol><p>底层的Unsafe类实现和原子类这里先不说了，等笔者弄明白再继续写，不过感觉Unsafe这个部分在面试中出现的频率并不高，原子类的考察则偏简单一些</p><h3 id="AQS"><a href="#AQS" class="headerlink" title="AQS"></a>AQS</h3><p>AQS是一个构建锁和同步器的框架，使用AQS能简单且高效地构造出应用广泛的同步器，比如ReentrantLock，Semaphore，ReentrantReadWriteLock，SynchronousQueue等</p><p>AQS作为抽象类只实现了部分逻辑（模版方法），并且使用了队列这个数据结构，具有先进先出的特性</p><h4 id="AQS的内部数据结构"><a href="#AQS的内部数据结构" class="headerlink" title="AQS的内部数据结构"></a>AQS的内部数据结构</h4><ul><li>state 同步状态</li><li>实现了一个双端队列，存储着封装成Node节点的线程，实现了一些排队和阻塞的功能</li></ul><h4 id="AQS在面试中的主要考察点"><a href="#AQS在面试中的主要考察点" class="headerlink" title="AQS在面试中的主要考察点"></a>AQS在面试中的主要考察点</h4><p><strong>AQS独占式获取&#x2F;释放锁的原理</strong></p><blockquote><p><strong>获取锁：</strong><br>1获取同步状态时，调用 acquire 方法，维护一个同步队列；<br>2使用 tryAcquire 方法安全地获取锁，如果成功返回true，失败返回false；<br>3获取失败的线程会被构造同步节点并通过 addWaiter 方法加入到同步队列的尾部；<br>4执行 acquireQueued 方法使得该节点以自旋的方式获取锁，如果获取不到则阻塞，被阻塞线程的唤醒主要依靠前驱节点的出队或被中断实现，移出队列或停止自旋的条件是前驱节点是头结点且成功获取了同步状态。<br>5成功获取锁后，将从acquireQueued方法中退出，同时返回一个boolean值表示当前线程是否被中断，若被中断，则会执行selfInterrupt方法，响应中断。<br><strong>释放锁：</strong><br>1释放同步状态时，同步器调用 tryRelease 方法释放锁；<br>2然后调用 unparkSuccessor 方法唤醒头节点的后继节点，使后继节点重新尝试获取锁。</p></blockquote><p><strong>AQS共享式获取&#x2F;释放锁的原理</strong></p><blockquote><p><strong>获取锁：</strong><br>1首先调用tryAcquireShared方法尝试获取一次共享锁，即修改state的值，若返回值&gt;&#x3D;0，则表示获取成功，线程不受影响，继续向下执行；<br>2若返回值小于0，表示获取共享锁失败，则线程需要进入到同步队列中等待，调用doAcquireShared方法。<br><strong>释放锁：</strong><br>1使用releaseShared模板方法释放锁，通过调用使用者自己实现的tryReleaseShared方法尝试释放锁，修改state的值，若返回true，表示修改成功，则继续向下调用doReleaseShared唤醒head的下一个节点对应的线程，让它开始尝试获取锁；<br>2若修改state失败，则返回false。</p></blockquote><p>这里可能还会考察通过AQS实现的一些类比如ReentranLock,这个打算放到锁的那个部分再说。</p><h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>这篇便主要讲了一下AQS和CAS可能会在面试中考察的点，说的都是可能直接问的地方，也说了一下原理，本身我对这个原理理解也不是特别的深入，这能尽自己所能了。</p><p><em>参考文章：</em></p><p><a href="https://redspider.gitbook.io/concurrent/di-er-pian-yuan-li-pian/11">https://redspider.gitbook.io/concurrent/di-er-pian-yuan-li-pian/11</a><br><a href="https://www.pdai.tech/md/java/thread/java-thread-x-juc-AtomicInteger.html#cas-%E9%97%AE%E9%A2%98">https://www.pdai.tech/md/java/thread/java-thread-x-juc-AtomicInteger.html#cas-%E9%97%AE%E9%A2%98</a><br><a href="https://www.pdai.tech/md/java/thread/java-thread-x-lock-AbstractQueuedSynchronizer.html">https://www.pdai.tech/md/java/thread/java-thread-x-lock-AbstractQueuedSynchronizer.html</a><br><a href="https://redspider.gitbook.io/concurrent/di-er-pian-yuan-li-pian/11">https://redspider.gitbook.io/concurrent/di-er-pian-yuan-li-pian/11</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 自学八股 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>夜思</title>
+      <link href="/2024/11/10/%E5%A4%9C%E6%80%9D/"/>
+      <url>/2024/11/10/%E5%A4%9C%E6%80%9D/</url>
+      
+        <content type="html"><![CDATA[<p>今天是2024年11月10日，上午十点刚刚考完中级软件设计师的考试，题目难度尚可，在略显拥挤的机房里完成了自己的第一次的考证时刻。</p><p>或许这个证的作用没有我想象中的那么大，但是那也是我为了脱离当下困境的努力挣扎之一了，作为一名双非本的普通软工学生，没有名校学生优质的资源，但是我依然在大一的时候就把进入互联网大厂作为自己的目标，从去年九月份开始，自学技术，做开源项目，做网上的项目，学各种技术去看MIT和UCB的公开课，图形学，机器学习，全栈开发等各种词汇填满了我大学的前一年半。</p><p>每当结束了一天无聊的上课时光，和紧张的自学时光之后，我躺在床上不免想，我真的热爱这个领域吗，或许不是，那我这么努力是为了什么呢？思虑良久，回答自己，无非碎银几两。挣钱嘛，没什么寒碜的。作家毛姆也说过，对金钱的追求是一个人正常的欲望。手中有几个铜板才能让我更好的赡养父母，追求我自己喜欢的精神生活。</p><p>在想通了这个之后，最近的计划就略微有了改变，在每天可怜的自学时间里，挤出一点时间，去尝试一些挣钱的方法，在这个浮躁且快节奏的社会，通过便捷的社交媒体，我们见证了太多沉浮，有人一夜暴富，一夜成名，站在时代的浪头。但也有人一夜身无分文，落魄潦倒。</p><p>这是时代的特点，我们个体的力量是没有办法做出改变的，时代的每一粒灰，落在每个人头上都是一座山，有时候看着那些年少有为的人不免会心生羡慕，但是无意思的幻想，只会让我更难以全身心的投入残酷的现实。</p><p>始终记住，你一直都是你自己，不要看别人交了答卷，就匆忙交上自己的答卷。</p><p><img src="https://pic.imgdb.cn/item/673089c3d29ded1a8c6a8169.jpg" alt="考场图片"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 思考 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>游戏客户端开发基本路线</title>
+      <link href="/2024/10/13/%E6%B8%B8%E6%88%8F%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E5%9F%BA%E6%9C%AC%E8%B7%AF%E7%BA%BF/"/>
+      <url>/2024/10/13/%E6%B8%B8%E6%88%8F%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E5%9F%BA%E6%9C%AC%E8%B7%AF%E7%BA%BF/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/tiao_god/article/details/111146313">计算机图形学（渲染方向）学习全攻略——学术科研篇_图形学blog-CSDN博客</a></p><p><a href="https://www.cnblogs.com/zhy-1992/p/6530359.html">游戏开发完整学习路线（各个版本都有） - 领悟.海洋 - 博客园 (cnblogs.com)</a></p><p><a href="https://zhuanlan.zhihu.com/p/445343440">图形学渲染方向个人学习路线整理 - 知乎 (zhihu.com)</a></p><p><a href="https://zhuanlan.zhihu.com/p/73151203">Unity游戏开发新手入门自学与进阶学习书籍和教程推荐 - 知乎 (zhihu.com)</a></p><p><a href="https://zhuanlan.zhihu.com/p/151238164?utm_id=0">[教程汇总+持续更新]Unity从入门到入坟——收藏这一篇就够了 - 知乎 (zhihu.com)</a></p><p>图形学：<br>入门：GAMES-101&nbsp;<br>实时渲染：GAMES-202、GAMES-104、RTR4(<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://github.com/Morakito/Real-Time-Rendering-4th-CN">https://github.com/Morakito/Real-Time-Rendering-4th-CN</a>)<br>离线渲染：<br>简单的软光追：<br>Ray&nbsp;Tracing&nbsp;in&nbsp;One&nbsp;<br>Weekend三部曲(<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://raytracing.github.io">https://raytracing.github.io</a>)<br>进阶：PBRT-V4&nbsp;(<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://pbr-book.org/4ed/contents">https://pbr-book.org/4ed/contents</a>)<br>图形API：<br>OpenGL：<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://learnopengl-cn.github.io">https://learnopengl-cn.github.io</a><br>Vulkan：<br>渐进式教程：<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://vulkan-tutorial.com">https://vulkan-tutorial.com</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Example：<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://github.com/SaschaWillems/Vulkan">https://github.com/SaschaWillems/Vulkan</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;将Vulkan封装成RHI，写出小引擎：<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://github.com/BoomingTech/Piccolo">https://github.com/BoomingTech/Piccolo</a><br>引擎原理:<br>GAMES-104,&nbsp;课程附带的&nbsp;<br>Piccolo源码值得一读&nbsp;(<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://github.com/BoomingTech/Piccolo">https://github.com/BoomingTech/Piccolo</a>)<br>Godot&nbsp;(<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://github.com/godotengine/godot">https://github.com/godotengine/godot</a>) 以及虚幻5源码<br>引擎使用:<br>Unity：<a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://catlikecoding.com/unity/tutorials/">https://catlikecoding.com/unity/tutorials/</a><br>编程: C<a href="/creation/subject/aec4cfb3acc74278b5a7273c17f8b8df">#：《C#</a>图解教程》<br>Shader：《Unity Shader 入门精要》<br>C++：《C++ Primer》《Effective Modern C++》《深度探索C++对象模型》《C++并发编程实战》<br>Lua：《Lua程序设计》 以及设计模式<br>其他:<br>GDC<br>SIGGRAPH   </p><p>书籍：<br>游戏设计原型与开发</p><p><a href="https://indienova.com/indie-game-development/start-developing-indie-games/">独立游戏开发入门指南 | indienova 独立游戏</a></p><p><img src="https://pic.imgdb.cn/item/670b9783d29ded1a8ceefe96.jpg" alt="插图"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 学习路线 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
