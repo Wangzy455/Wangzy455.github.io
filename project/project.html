@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>项目展示</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Portfolio</div>
+                <ul class="nav-links">
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#about">关于我</a></li>
+                    <li><a href="#projects">项目</a></li>
+                    <li><a href="#skills">技能</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>你好，我是 <span class="highlight">等闲</span></h1>
+                <p class="subtitle">后端开发 / AIGC / 前端爱好者 </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary-btn">查看我的项目</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder" >
+                        <img src="https://pic1.imgdb.cn/item/670b6dc7d29ded1a8cc4bbb4.jpg">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>热爱开源，参与过一些开源项目，自己做过一些微服务项目和简单的前端项目</p>
+                    <p></p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span class="info-label">姓名:</span>
+                            <span class="info-value">等闲</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">邮箱:</span>
+                            <span class="info-value">wangziyuan455@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">所在地:</span>
+                            <span class="info-value">中国,青岛</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">状态:</span>
+                            <span class="info-value">可接受工作机会</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Wangzy455" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">参与的社区项目</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="web">社区</button>
+                <button class="filter-btn" data-filter="app">应用</button>
+                <button class="filter-btn" data-filter="design">设计</button>
+            </div>
+            <div class="projects-grid">
+                <!-- 项目1 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="https://pic1.imgdb.cn/item/6818755f58cb8da5c8dd56ab.png">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Spring ai alibaba</h3>
+                        <p class="project-category">AI应用开发框架</p>
+                        <p class="project-description">Spring ai alibaba社区推出的让java开发者可以快速构建AI应用的框架。Spring ai graph模块添加预定义节点</p>
+                        <div class="project-tags">
+                            <span class="tag">AI</span>
+                            <span class="tag">Spring</span>
+                            <span class="tag">Mcp</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/alibaba/spring-ai-alibaba" class="project-link"><i class="fab fa-github"></i> 代码</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 项目2 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="https://pic1.imgdb.cn/item/6818750658cb8da5c8dd5690.png">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Apache eventmesh</h3>
+                        <p class="project-category">中间件</p>
+                        <p class="project-description"> 面向云原生架构的分布式事件驱动架构中间，EventMesh 充当消息中间件网关，
+                            连接各种事件源（如微服务、MQ、云事件）和消费者，实现高效、解耦、异构系统之间的事件驱动通信。
+                        文件生成部分设计单测</p>
+                        <div class="project-tags">
+                            <span class="tag">云原生</span>
+                            <span class="tag">消息中间件</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/apache/eventmesh/pull/5197" class="project-link"><i class="fab fa-github"></i> 代码</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 项目3 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="https://pic1.imgdb.cn/item/6818745258cb8da5c8dd5662.png">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">kuscia</h3>
+                        <p class="project-category">隐私计算</p>
+                        <p class="project-description">一个轻量型的隐私计算框架，设计web模块单测</p>
+                        <div class="project-tags">
+                            <span class="tag">golong</span>
+                            <span class="tag">k8s</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/secretflow/kuscia/pull/610" class="project-link"><i class="fab fa-github"></i> 代码</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">我的技能</h2>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3 class="category-title">开发语言</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-name">java</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">golong</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 40%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">React</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 40%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3 class="category-title">框架</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-name">SpringBoot</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Spring MVC</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">spring ai alibaba</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 35%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3 class="category-title">中间件</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-name">Redis</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Rabbitmq</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Elasticsearch</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 等闲. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
