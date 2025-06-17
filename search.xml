@@ -323,4 +323,156 @@
         <tag>面试</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2025 开源之夏 Spring Cloud Alibaba 社区项目申请书</title>
+    <url>/2025/06/17/2025%20%E5%BC%80%E6%BA%90%E4%B9%8B%E5%A4%8F%20Spring%20Cloud%20Alibaba%20%E7%A4%BE%E5%8C%BA%E7%94%B3%E8%AF%B7%E4%B9%A6/</url>
+    <content><![CDATA[<blockquote>
+<p>OSPP项目申请书<br>项目名称：基于 Spring Cloud Alibaba MCP 服务高效构建通用 AI 智能体<br>项目导师：牧生<br>申请人：王子元<br>邮箱：<a href="mailto:&#x77;&#97;&#110;&#103;&#122;&#105;&#x79;&#117;&#x61;&#110;&#52;&#x35;&#53;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#x77;&#97;&#110;&#103;&#122;&#105;&#x79;&#117;&#x61;&#110;&#52;&#x35;&#53;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></p>
+</blockquote>
+<h2 id="申请书目录"><a href="#申请书目录" class="headerlink" title="申请书目录"></a>申请书目录</h2><ol>
+<li>项目背景<ul>
+<li>1.1 社区介绍</li>
+<li>1.2 课题介绍</li>
+</ul>
+</li>
+<li>技术方法及调研<ul>
+<li>2.1  JManus 调研</li>
+<li>2.3  技术选型和项目需求</li>
+</ul>
+</li>
+<li>项目设计<ul>
+<li>3.1 MCP 工具的注册</li>
+<li>3.2 MCP 工具的筛选增强</li>
+<li>3.3 动态开关 MCP 服务</li>
+</ul>
+</li>
+<li>项目开发时间规划</li>
+<li>个人简介</li>
+</ol>
+<h1 id="1-项目背景"><a href="#1-项目背景" class="headerlink" title="1. 项目背景"></a>1. 项目背景</h1><h2 id="1-1-社区介绍"><a href="#1-1-社区介绍" class="headerlink" title="1.1 社区介绍"></a>1.1 社区介绍</h2><p>2025年，AI 技术进入全面落地阶段，智能体（AI Agent）成为热门趋势。微软报告指出，到2025年AI 驱动的智能体将具有更高的自主性，能够在办公和生活中承担更多任务。</p>
+<p>Spring AI Alibaba 是一款以 Spring AI 为基础，深度集成百炼平台，支持 ChatBot、工作流、多智能体应用开发模式的 AI 框架。在 1.0 版本中 Spring AI Alibaba 提供了 Graph 多智能体框架，集成了 AI 生态，探索具备自主规划能力的通用智能体产品与平台，让开发者可以快速构建自己的 Agent、Workflow 或 Multi-agent 应用。</p>
+<p>目前社区已经实现了 JManus，DeepReSearch 等智能体应用。</p>
+<h2 id="1-2-课题介绍"><a href="#1-2-课题介绍" class="headerlink" title="1.2 课题介绍"></a>1.2 课题介绍</h2><p><strong>项目背景</strong><br>2025 年时 AI Agent 爆发的一年，Agent 需要依赖工具辅助完成任务，而 MCP（Model Context Protocol）为智能体与工具交互提供了标准协议。很多企业中有大量使用 Spring Cloud Alibaba 开发的业务系统，通过与 Spring AI Alibaba 社区合作共建的 MCP 解决方案，我们可以将 Spring Cloud 业务系统发布为 MCP 服务。</p>
+<p><strong>学生职责&amp;目标</strong><br>在这个项目中，学生将和社区一起共同探索开发一个通用 AI Agent，重点解决在面对大量 MCP 工具时，如何更有效、智能的过滤筛选 MCP 服务，帮助模型和 Agent 在运行过程中更好的选择 MCP 工具。</p>
+<p><strong>学生要求&amp;技术栈</strong><br>熟练掌握 Java 开发语言<br>熟悉 AI Agent 开发、MCP 等相关概念<br>了解 Spring AI、Langchain 等 AI 开发框架</p>
+<p>该课题是让学生在 Spring AI Alibaba 的框架基础上设计一个类似 Manus 的通用智能体组件，开发一个通用 AI Agent。</p>
+<p>重点解决在面对大量 MCP 工具时，如何更有效、智能的过滤筛选 MCP 服务，帮助模型和 Agent 在运行过程中更好的选择 MCP 工具</p>
+<h1 id="2-技术选型及调研"><a href="#2-技术选型及调研" class="headerlink" title="2. 技术选型及调研"></a>2. 技术选型及调研</h1><h2 id="2-1-JManus-调研"><a href="#2-1-JManus-调研" class="headerlink" title="2.1 JManus 调研"></a>2.1 JManus 调研</h2><p>JManus 是一个典型的通用 AI agent 可以自主执行任务，无需用户持续的关注和干预即可完成复杂任务<br>工作原理图如下</p>
+<p><img src="https://pic1.imgdb.cn/item/684545c058cb8da5c83a15f6.png"></p>
+<p>在 Spring AI Aliabab 开源的 JManus 中配置了计划模版，并且可以创建自定义 agent ，但是在任务执行过程中 tools 的保存以及选择都可以进一步的进行优化，也是课题中需要实现的部分</p>
+<h2 id="2-2-技术选型和项目需求"><a href="#2-2-技术选型和项目需求" class="headerlink" title="2.2 技术选型和项目需求"></a>2.2 技术选型和项目需求</h2><ul>
+<li><p>项目需求<br>设计通用智能体框架，该框架可以在面对大量的 MCP 服务的时候可以有效，智能的筛选 MCP 服务，帮助模型在运行中更好的选择 MCP 服务。<br>项目设计主要是在 JManus 基础上做的改变。</p>
+</li>
+<li><p>技术选型</p>
+<ul>
+<li>Java 17</li>
+<li>Spring AI Alibaba</li>
+<li>Spring Cloud Alibaba</li>
+<li>Spring Boot</li>
+</ul>
+</li>
+</ul>
+<h1 id="3-项目设计"><a href="#3-项目设计" class="headerlink" title="3. 项目设计"></a>3. 项目设计</h1><h2 id="3-1-MCP-工具的注册"><a href="#3-1-MCP-工具的注册" class="headerlink" title="3.1 MCP 工具的注册"></a>3.1 MCP 工具的注册</h2><h3 id="3-1-1-目前-JManus-中的实现"><a href="#3-1-1-目前-JManus-中的实现" class="headerlink" title="3.1.1 目前 JManus 中的实现"></a>3.1.1 目前 JManus 中的实现</h3><p>在目前 JManus 中，MCP 服务的注册是通过手动将带有 MCP 服务信息的 JSON 粘贴到可视化 web 控制台，并选择是 STDIO 或 SSE 模式的服务。</p>
+<p>其中可视化的处理是通过 McpConfigRequestVO 对象把配置信息从前端传输到后端通过 Spring JPA   将数据存储到 H2 数据库中，实现持久化 MCP 服务配置的功能。</p>
+<p>在执行计划的时候会将配置信息读取到本地缓存中，JManus 在创建计划阶段会判断是否需要调用工具来完成计划，要确保执行计划过程中可以调用正确的工具，需要在后台配置页面时正确的配置 MCP 服务的信息，并将 MCP 服务挂载到对应的 Agent 中。</p>
+<p>流程图如下：<br>![[mcp.png]]</p>
+<p>接受前端传输的MCP服务配置信息：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">McpConfigRequestVO</span> &#123;  </span><br><span class="line">  </span><br><span class="line">    <span class="comment">/**  </span></span><br><span class="line"><span class="comment">     * 连接类型：STDIO, STREAMING, SSE  </span></span><br><span class="line"><span class="comment">     */</span>    <span class="keyword">private</span> String connectionType;  </span><br><span class="line">  </span><br><span class="line">    <span class="comment">/**  </span></span><br><span class="line"><span class="comment">     * MCP服务器配置的JSON字符串  </span></span><br><span class="line"><span class="comment">     */</span>  </span><br><span class="line">    <span class="keyword">private</span> String configJson;  </span><br><span class="line">  </span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">getConnectionType</span><span class="params">()</span> &#123;  </span><br><span class="line">       <span class="keyword">return</span> connectionType;  </span><br><span class="line">    &#125;  </span><br><span class="line">  </span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setConnectionType</span><span class="params">(String connectionType)</span> &#123;  </span><br><span class="line">       <span class="built_in">this</span>.connectionType = connectionType;  </span><br><span class="line">    &#125;  </span><br><span class="line">  </span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">getConfigJson</span><span class="params">()</span> &#123;  </span><br><span class="line">       <span class="keyword">return</span> configJson;  </span><br><span class="line">    &#125;  </span><br><span class="line">  </span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setConfigJson</span><span class="params">(String configJson)</span> &#123;  </span><br><span class="line">       <span class="built_in">this</span>.configJson = configJson;  </span><br><span class="line">    &#125;  </span><br><span class="line">  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>MCP服务添加的具体代码在 <code>McpService</code>：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> List&lt;McpConfigEntity&gt; <span class="title function_">insertOrupdateMcpRepo</span><span class="params">(McpConfigRequestVO mcpConfigVO)</span> <span class="keyword">throws</span> IOException &#123;  </span><br><span class="line">    List&lt;McpConfigEntity&gt; entityList = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();  </span><br><span class="line">    <span class="keyword">try</span> (<span class="type">JsonParser</span> <span class="variable">jsonParser</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ObjectMapper</span>().createParser(mcpConfigVO.getConfigJson())) &#123;  </span><br><span class="line">       <span class="type">McpServersConfig</span> <span class="variable">mcpServerConfig</span> <span class="operator">=</span> jsonParser.readValueAs(McpServersConfig.class);  </span><br><span class="line">       <span class="type">String</span> <span class="variable">type</span> <span class="operator">=</span> mcpConfigVO.getConnectionType();  </span><br><span class="line">       <span class="type">McpConfigType</span> <span class="variable">mcpConfigType</span> <span class="operator">=</span> McpConfigType.valueOf(type);  </span><br><span class="line">       <span class="keyword">if</span> (McpConfigType.STUDIO.equals(mcpConfigType)) &#123;  </span><br><span class="line">          <span class="comment">// STDIO类型的连接需要特殊处理  </span></span><br><span class="line">          mcpServerConfig.getMcpServers().forEach((name, config) -&gt; &#123;  </span><br><span class="line">             <span class="keyword">if</span> (config.getCommand() == <span class="literal">null</span> || config.getCommand().isEmpty()) &#123;  </span><br><span class="line">                <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">IllegalArgumentException</span>(  </span><br><span class="line">                      <span class="string">&quot;Missing required &#x27;command&#x27; field in server configuration for &quot;</span> + name);  </span><br><span class="line">             &#125;  </span><br><span class="line">             <span class="keyword">if</span> (config.getUrl() != <span class="literal">null</span> &amp;&amp; !config.getUrl().isEmpty()) &#123;  </span><br><span class="line">                <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">IllegalArgumentException</span>(  </span><br><span class="line">                      <span class="string">&quot;STUDIO type should not have &#x27;url&#x27; field in server configuration for &quot;</span> + name);  </span><br><span class="line">             &#125;  </span><br><span class="line">          &#125;);  </span><br><span class="line">       &#125;  </span><br><span class="line">       <span class="keyword">else</span> <span class="keyword">if</span> (McpConfigType.SSE.equals(mcpConfigType)) &#123;  </span><br><span class="line">          <span class="comment">// SSE类型的连接需要特殊处理  </span></span><br><span class="line">          mcpServerConfig.getMcpServers().forEach((name, config) -&gt; &#123;  </span><br><span class="line">             <span class="keyword">if</span> (config.getUrl() == <span class="literal">null</span> || config.getUrl().isEmpty()) &#123;  </span><br><span class="line">                <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">IllegalArgumentException</span>(  </span><br><span class="line">                      <span class="string">&quot;Missing required &#x27;url&#x27; field in server configuration for &quot;</span> + name);  </span><br><span class="line">             &#125;  </span><br><span class="line">             <span class="keyword">if</span> (config.getCommand() != <span class="literal">null</span> &amp;&amp; !config.getCommand().isEmpty()) &#123;  </span><br><span class="line">                <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">IllegalArgumentException</span>(  </span><br><span class="line">                      <span class="string">&quot;SSE type should not have &#x27;command&#x27; field in server configuration for &quot;</span> + name);  </span><br><span class="line">             &#125;  </span><br><span class="line">          &#125;);  </span><br><span class="line">       &#125;  </span><br><span class="line">       <span class="keyword">else</span> <span class="keyword">if</span> (McpConfigType.STREAMING.equals(mcpConfigType)) &#123;  </span><br><span class="line">          <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">UnsupportedOperationException</span>(<span class="string">&quot;STREAMING connection type is not supported yet&quot;</span>);  </span><br><span class="line">       &#125;  </span><br><span class="line">  </span><br><span class="line">       <span class="comment">// 迭代处理每个MCP服务器配置  </span></span><br><span class="line">       <span class="keyword">for</span> (Map.Entry&lt;String, McpServerConfig&gt; entry : mcpServerConfig.getMcpServers().entrySet()) &#123;  </span><br><span class="line">          <span class="type">String</span> <span class="variable">serverName</span> <span class="operator">=</span> entry.getKey();  </span><br><span class="line">          <span class="type">McpServerConfig</span> <span class="variable">serverConfig</span> <span class="operator">=</span> entry.getValue();  </span><br><span class="line">  </span><br><span class="line">          <span class="comment">// 使用ServerConfig的toJson方法将配置转换为JSON字符串  </span></span><br><span class="line">          <span class="type">String</span> <span class="variable">configJson</span> <span class="operator">=</span> serverConfig.toJson();  </span><br><span class="line">  </span><br><span class="line">          <span class="comment">// 查找对应的MCP配置实体  </span></span><br><span class="line">          <span class="type">McpConfigEntity</span> <span class="variable">mcpConfigEntity</span> <span class="operator">=</span> mcpConfigRepository.findByMcpServerName(serverName);  </span><br><span class="line">          <span class="keyword">if</span> (mcpConfigEntity == <span class="literal">null</span>) &#123;  </span><br><span class="line">             mcpConfigEntity = <span class="keyword">new</span> <span class="title class_">McpConfigEntity</span>();  </span><br><span class="line">             mcpConfigEntity.setConnectionConfig(configJson);  </span><br><span class="line">             mcpConfigEntity.setMcpServerName(serverName);  </span><br><span class="line">             mcpConfigEntity.setConnectionType(mcpConfigType);  </span><br><span class="line">          &#125;  </span><br><span class="line">          <span class="keyword">else</span> &#123;  </span><br><span class="line">             mcpConfigEntity.setConnectionConfig(configJson);  </span><br><span class="line">             mcpConfigEntity.setConnectionType(mcpConfigType);  </span><br><span class="line">          &#125;  </span><br><span class="line">          <span class="type">McpConfigEntity</span> <span class="variable">entity</span> <span class="operator">=</span> mcpConfigRepository.save(mcpConfigEntity);  </span><br><span class="line">          entityList.add(entity);  </span><br><span class="line">          logger.info(<span class="string">&quot;MCP server &#x27;&#123;&#125;&#x27; has been saved to database.&quot;</span>, serverName);  </span><br><span class="line">  </span><br><span class="line">       &#125;  </span><br><span class="line">    &#125;  </span><br><span class="line">    <span class="keyword">return</span> entityList;  </span><br><span class="line">  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="3-1-2-根据课题的改动方案"><a href="#3-1-2-根据课题的改动方案" class="headerlink" title="3.1.2 根据课题的改动方案"></a>3.1.2 根据课题的改动方案</h3><p>目前 JManus 中的服务的注册方式是通过接受前端传输的配置进行本地存储，需要的时候读取到缓存 (Guava Cache) 中，再从缓存中进行筛选。</p>
+<p>而默认的配置方式是 MCP 服务注册之后，默认放到 DEFAULT_AGENT 中，如果注册的 Tool 的数量过多，对上下文有压力，多出来的 Tool 会被忽略，这样就必须创建新的agent，手动的进行添加。<br>并且本地 Guava 缓存存储的内存大小有限制，会出现性能问题。</p>
+<p>这里的改进思路是可以使用外部的向量数据库（如 Milvus , Weaviate , Pinecone 等）存储 MCP 服务的元数据信息。在后续过程中创建一个与向量数据库交互的 Agent 作为协作过程中的 Tools Agent，并且这样在筛选 MCP 服务的时候可以做到语义级检索。</p>
+<h2 id="3-2-MCP-工具的筛选增强"><a href="#3-2-MCP-工具的筛选增强" class="headerlink" title="3.2 MCP 工具的筛选增强"></a>3.2 MCP 工具的筛选增强</h2><h3 id="3-2-1-JManus-中的-MCP-工具筛选"><a href="#3-2-1-JManus-中的-MCP-工具筛选" class="headerlink" title="3.2.1 JManus 中的 MCP 工具筛选"></a>3.2.1 JManus 中的 MCP 工具筛选</h3><p>在 JManus 中具体的在执行计划时，会在计划创建阶段， PlanCreator 类里面遍历存储 DynamicAgentEntity 的列表，构建可用的 AgentInfo 信息，将 Agent 的信息注入到计划的创建中，对应的 Agent 在执行计划的时候，便会根据计划的上下文，选择可用的 MCP 服务</p>
+<p>在这个流程图中也给出了调用的过程</p>
+<p>![[mcp 1.png]]</p>
+<p>创建计划的代码</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">createPlan</span><span class="params">(ExecutionContext context)</span> &#123;  </span><br><span class="line">  </span><br><span class="line">    <span class="type">String</span> <span class="variable">planId</span> <span class="operator">=</span> context.getPlanId();  </span><br><span class="line">    <span class="keyword">if</span> (planId == <span class="literal">null</span> || planId.isEmpty()) &#123;  </span><br><span class="line">       <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">IllegalArgumentException</span>(<span class="string">&quot;Plan ID cannot be null or empty&quot;</span>);  </span><br><span class="line">    &#125;  </span><br><span class="line">    <span class="keyword">try</span> &#123;  </span><br><span class="line">       <span class="comment">// 构建代理信息  </span></span><br><span class="line">       <span class="type">String</span> <span class="variable">agentsInfo</span> <span class="operator">=</span> buildAgentsInfo(agents);  </span><br><span class="line">       <span class="type">ExecutionPlan</span> <span class="variable">currentPlan</span> <span class="operator">=</span> <span class="literal">null</span>;  </span><br><span class="line">       <span class="comment">// 生成计划提示  </span></span><br><span class="line">       <span class="type">String</span> <span class="variable">planPrompt</span> <span class="operator">=</span> generatePlanPrompt(context.getUserRequest(), agentsInfo, planId);  </span><br><span class="line">  </span><br><span class="line">       <span class="comment">// 使用 LLM 生成计划  </span></span><br><span class="line">       <span class="type">PromptTemplate</span> <span class="variable">promptTemplate</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">PromptTemplate</span>(planPrompt);  </span><br><span class="line">       <span class="type">Prompt</span> <span class="variable">prompt</span> <span class="operator">=</span> promptTemplate.create();  </span><br><span class="line">  </span><br><span class="line">       ChatClient.<span class="type">CallResponseSpec</span> <span class="variable">response</span> <span class="operator">=</span> llmService.getPlanningChatClient()  </span><br><span class="line">          .prompt(prompt)  </span><br><span class="line">          .toolCallbacks(List.of(planningTool.getFunctionToolCallback()))  </span><br><span class="line">          .advisors(memoryAdvisor -&gt; memoryAdvisor.param(<span class="string">&quot;chat_memory_conversation_id&quot;</span>, planId)  </span><br><span class="line">             .param(<span class="string">&quot;chat_memory_retrieve_size&quot;</span>, <span class="number">100</span>))  </span><br><span class="line">          .call();  </span><br><span class="line">       <span class="type">String</span> <span class="variable">outputText</span> <span class="operator">=</span> response.chatResponse().getResult().getOutput().getText();  </span><br><span class="line">       <span class="comment">// 检查计划是否创建成功  </span></span><br><span class="line">       <span class="keyword">if</span> (planId.equals(planningTool.getCurrentPlanId())) &#123;  </span><br><span class="line">          currentPlan = planningTool.getCurrentPlan();  </span><br><span class="line">          log.info(<span class="string">&quot;Plan created successfully: &#123;&#125;&quot;</span>, currentPlan);  </span><br><span class="line">          currentPlan.setPlanningThinking(outputText);  </span><br><span class="line">       &#125;  </span><br><span class="line">       context.setPlan(currentPlan);  </span><br><span class="line">  </span><br><span class="line">    &#125;  </span><br><span class="line">    <span class="keyword">catch</span> (Exception e) &#123;  </span><br><span class="line">       log.error(<span class="string">&quot;Error creating plan for request: &#123;&#125;&quot;</span>, context.getUserRequest(), e);  </span><br><span class="line">       <span class="comment">// 处理异常情况  </span></span><br><span class="line">       <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">RuntimeException</span>(<span class="string">&quot;Failed to create plan&quot;</span>, e);  </span><br><span class="line">    &#125;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>读取 Agent 信息的代码：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">private</span> String <span class="title function_">buildAgentsInfo</span><span class="params">(List&lt;DynamicAgentEntity&gt; agents)</span> &#123;  </span><br><span class="line">    <span class="type">StringBuilder</span> <span class="variable">agentsInfo</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">StringBuilder</span>(<span class="string">&quot;Available Agents:\n&quot;</span>);  </span><br><span class="line">    <span class="keyword">for</span> (DynamicAgentEntity agent : agents) &#123;  </span><br><span class="line">       agentsInfo.append(<span class="string">&quot;- Agent Name: &quot;</span>)  </span><br><span class="line">          .append(agent.getAgentName())  </span><br><span class="line">          .append(<span class="string">&quot;\n  Description: &quot;</span>)  </span><br><span class="line">          .append(agent.getAgentDescription())  </span><br><span class="line">          .append(<span class="string">&quot;\n&quot;</span>);  </span><br><span class="line">    &#125;  </span><br><span class="line">    <span class="keyword">return</span> agentsInfo.toString();  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-2-2-根据课题的改动方案"><a href="#3-2-2-根据课题的改动方案" class="headerlink" title="3.2.2 根据课题的改动方案"></a>3.2.2 根据课题的改动方案</h3><p>在第一部分 MCP 工具注册的部分提到可以通过向量数据库的方式存储 MCP 工具的元数据信息，这里可以通过类似 Multi-agent 的执行模式来增强 MCP 工具筛选的功能</p>
+<p>创建一个智能体负责 MCP 服务的检索（类似 RAG ），而负责执行计划的智能体在需要调用 MCP 服务的时候与负责执行计划的智能体进行交互，返回给负责执行的智能体传输需要实现的。</p>
+<p>并且将原来系统中集成的 Guava 作为本地缓存缓存热点 MCP 服务，加快大模型执行计划的速度。</p>
+<p>组件选型</p>
+<table>
+<thead>
+<tr>
+<th>组件</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Embedding 模型</td>
+<td><code>text-embedding-v1</code>（阿里云百炼平台）</td>
+</tr>
+<tr>
+<td>向量数据库</td>
+<td>Milvus 或者选用阿里百炼平台的百炼知识库作为向量数据库</td>
+</tr>
+<tr>
+<td>Agent 路由器</td>
+<td>起到 rag 功能的 agent 用做工具筛选</td>
+</tr>
+<tr>
+<td>缓存机制</td>
+<td>Guava Cache 保留作为热数据缓存</td>
+</tr>
+</tbody></table>
+<p><img src="https://pic1.imgdb.cn/item/68454a8758cb8da5c83a1b92.png"></p>
+<h2 id="3-3-动态开关-MCP-服务"><a href="#3-3-动态开关-MCP-服务" class="headerlink" title="3.3 动态开关 MCP 服务"></a>3.3 动态开关 MCP 服务</h2><h3 id="3-3-1-在-JManus-中的-MCP-服务动态管理"><a href="#3-3-1-在-JManus-中的-MCP-服务动态管理" class="headerlink" title="3.3.1 在 JManus 中的 MCP 服务动态管理"></a>3.3.1 在 JManus 中的 MCP 服务动态管理</h3><p>在 JManus 中 MCP 服务的动态开关主要实现是在配置 Agent 的过程里，可以通过选取是否添加某些MCP 工具 实现开关 MCP 服务</p>
+<p>左下角的工具调用列表里：</p>
+<p><img src="https://pic1.imgdb.cn/item/6829a74e58cb8da5c8fb05c1.png"></p>
+<h3 id="3-3-2-根据课题的改动方案"><a href="#3-3-2-根据课题的改动方案" class="headerlink" title="3.3.2 根据课题的改动方案"></a>3.3.2 根据课题的改动方案</h3><p>在前两个模块中项目设计的想法是把 MCP 服务的元数据信息存储到向量数据库中，通过语义检索的方式筛选 MCP 服务</p>
+<p>这样如果涉及到要开关 MCP 服务，主要就变成了对向量数据库中结构化的 metadata 数据进行更新</p>
+<p>比如：</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;baidu-map&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;vector&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span>...<span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;payload&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;enabled&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;百度地图服务，用于路径规划&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;category&quot;</span><span class="punctuation">:</span> <span class="string">&quot;location&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>更新 enabled 字段，在负责进行语义检索的 Agent 中进行限制，过滤掉 <code>enabled = flase</code> 的结果</p>
+<h1 id="4-项目开发时间规划"><a href="#4-项目开发时间规划" class="headerlink" title="4. 项目开发时间规划"></a>4. 项目开发时间规划</h1><table>
+<thead>
+<tr>
+<th>阶段</th>
+<th>时间</th>
+<th>具体规划</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>第一阶段</td>
+<td>2025.7.1-2025.7.15</td>
+<td>主要进行 MCP 服务注册方面后端代码的改动</td>
+</tr>
+<tr>
+<td>第二阶段</td>
+<td>2025.7.16-2025.7.30</td>
+<td>主要进行 MCP 服务选择增强方面后端代码的改动</td>
+</tr>
+<tr>
+<td>第三阶段</td>
+<td>2025.8.1-2025.8.15</td>
+<td>主要进行 MCP 服务开关方面的改动</td>
+</tr>
+<tr>
+<td>第四阶段</td>
+<td>2025.8.16-2025.8.30</td>
+<td>进行前端代码的改动，撰写文档</td>
+</tr>
+</tbody></table>
+<h1 id="5-个人简介"><a href="#5-个人简介" class="headerlink" title="5. 个人简介"></a>5. 个人简介</h1><p>我叫王子元，这是我的 <a href="https://github.com/Wangzy455">github主页链接</a> ，我的主要技术栈为 java 和 go，独立做过一些简单的微服务项目开发，了解 web 应用开发流程。对 AI 开发领域有浓厚的兴趣，目前是 Spring AI Alibaba 社区的贡献者，在技术学习中始终信奉技术人文主义，相信技术最后的目的是促进社会的发展。</p>
+<p>在开源贡献方面：</p>
+<ul>
+<li>在隐语社区的 kuscia 项目进行了初次贡献，主要完成了 pkg&#x2F;web 模块的单测覆盖</li>
+<li>在 Apache EventMesh 社区为自动保存日志的工具类编写了单元测试</li>
+<li>在 Spring AI alibaba 社区<br>1，参与了社区 Spring AI Graph 中预定义节点的编写<br>2，参与了社区 toolCallBack 插件的重构工作<br>3，参与了社区 Spring AI Alibaba 1.0.0 版本的适配工作<br>4，对 example 仓库的使用案例进行完善<br>5，完善了 dashscope image 模型的可观测完善，并编写了对应的 example<br>6，参与了官网文档的编写工作</li>
+</ul>
+<p>最后衷心的希望可以参与社区的这次课题。</p>
+]]></content>
+      <tags>
+        <tag>开源之夏</tag>
+      </tags>
+  </entry>
 </search>
